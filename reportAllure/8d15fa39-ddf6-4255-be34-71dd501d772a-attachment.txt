@@ -1,2 +1,0 @@
-collaboration的位置地址是 xpath //*[@id='bs-example-navbar-collapse-1']/ul[1]/li[4]/a
-info:click "//*[@id='bs-example-navbar-collapse-1']/ul[1]/li[4]/a"

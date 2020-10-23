@@ -1,2 +1,0 @@
-[Info:Starting find the element "/html/body/div[4]/div/form/div[6]/div/select" by "xpath"!]
-------------close browser------------

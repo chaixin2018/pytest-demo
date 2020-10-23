@@ -1,4 +1,0 @@
-iamC的位置地址是： xpath /html/body/div[3]/div/nav/div/div[2]/ul[1]/li[1]/a
-info:click "/html/body/div[3]/div/nav/div/div[2]/ul[1]/li[1]/a"
-[Info:Starting find the element "/html/body/div[4]/div/div[2]/div/div/h3" by "xpath"!]
-雇主中心 actual

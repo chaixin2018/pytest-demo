@@ -1,4 +1,0 @@
-top的位置地址是： xpath //*[@id='bs-example-navbar-collapse-1']/ul[1]/li[2]/a
-info:click "//*[@id='bs-example-navbar-collapse-1']/ul[1]/li[2]/a"
-11311
-------------close browser------------

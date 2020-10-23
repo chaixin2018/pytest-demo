@@ -1,8 +1,0 @@
-manage的位置地址是 xpath /html/body/div[3]/div/nav/div/div[2]/ul[1]/li[2]/a
-info:click "/html/body/div[3]/div/nav/div/div[2]/ul[1]/li[2]/a"
-[Info:Starting find the element "/html/body/div[4]/div/div[2]/div/div/h3" by "xpath"!]
-error: found "/html/body/div[4]/div/div[2]/div/div/h3" timeout! Message: 
-
-get "/html/body/div[4]/div/div[2]/div/div/h3" text failed return None
-None actual
-------------close browser------------

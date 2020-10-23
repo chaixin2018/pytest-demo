@@ -1,0 +1,112 @@
+{
+  "uid" : "b2fe7a6f9047be24",
+  "name" : "test_fail_user_empty[-daido001-对不起！请输入用户名！]",
+  "fullName" : "TestCases.test_1_loginCase.TestLogin#test_fail_user_empty",
+  "historyId" : "0a831d44804102e7886453d7ddc5fee2",
+  "time" : {
+    "start" : 1601279811824,
+    "stop" : 1601279815705,
+    "duration" : 3881
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1601279811823,
+      "stop" : 1601279811823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d67227945dac3be8",
+      "name" : "stdout",
+      "source" : "d67227945dac3be8.txt",
+      "type" : "text/plain",
+      "size" : 921
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1601279815711,
+      "stop" : 1601279815717,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_loginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "17224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_1_loginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'对不起！请输入用户名！'"
+  }, {
+    "name" : "password",
+    "value" : "'daido001'"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test1" ]
+  },
+  "source" : "b2fe7a6f9047be24.json",
+  "parameterValues" : [ "'对不起！请输入用户名！'", "'daido001'", "''" ]
+}

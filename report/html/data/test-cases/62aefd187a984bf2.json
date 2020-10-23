@@ -1,0 +1,214 @@
+{
+  "uid" : "62aefd187a984bf2",
+  "name" : "test_fail_password_empty[1-1-对不起！密码长度不能小于6位！]",
+  "fullName" : "TestCases.test_1_loginCase.TestLogin#test_fail_password_empty",
+  "historyId" : "65e94724bf25141b9781f313e0e8e919",
+  "time" : {
+    "start" : 1601279554426,
+    "stop" : 1601279588388,
+    "duration" : 33962
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1601279485212,
+      "stop" : 1601279485212,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1601279554153,
+      "stop" : 1601279554153,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1601279479972,
+      "stop" : 1601279485212,
+      "duration" : 5240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1601279554153,
+        "stop" : 1601279554426,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85a5d82f23e83387",
+        "name" : "失败截图",
+        "source" : "85a5d82f23e83387.png",
+        "type" : "image/png",
+        "size" : 37852
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1601279588388,
+        "stop" : 1601279588648,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ada8e0d63d330f9f",
+        "name" : "失败截图",
+        "source" : "ada8e0d63d330f9f.png",
+        "type" : "image/png",
+        "size" : 39371
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6b455525b11592bc",
+      "name" : "stdout",
+      "source" : "6b455525b11592bc.txt",
+      "type" : "text/plain",
+      "size" : 959
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1601279614158,
+      "stop" : 1601279614158,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1601279588654,
+      "stop" : 1601279588665,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1601279614160,
+      "stop" : 1601279616338,
+      "duration" : 2178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_loginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "9868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_1_loginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'对不起！密码长度不能小于6位！'"
+  }, {
+    "name" : "password",
+    "value" : "'1'"
+  }, {
+    "name" : "username",
+    "value" : "'1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test1" ]
+  },
+  "source" : "62aefd187a984bf2.json",
+  "parameterValues" : [ "'对不起！密码长度不能小于6位！'", "'1'", "'1'" ]
+}

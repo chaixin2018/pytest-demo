@@ -1,0 +1,181 @@
+{
+  "uid" : "35e4a4292f06707b",
+  "name" : "test_recommend0",
+  "fullName" : "TestCases.test_3_recommendPageCase.TestRecommendPage#test_recommend0",
+  "historyId" : "696e084de9d515ea860eff227cc85a55",
+  "time" : {
+    "start" : 1603356934822,
+    "stop" : 1603356942292,
+    "duration" : 7470
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356907344,
+      "stop" : 1603356912678,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603356912679,
+      "stop" : 1603356934822,
+      "duration" : 22143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603356912678,
+      "stop" : 1603356912679,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b48339d868d8ee2e",
+      "name" : "stdout",
+      "source" : "b48339d868d8ee2e.txt",
+      "type" : "text/plain",
+      "size" : 994
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603356993419,
+      "stop" : 1603356995626,
+      "duration" : 2207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603356971452,
+      "stop" : 1603356971473,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603356971476,
+      "stop" : 1603356971476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_3_recommendPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecommendPage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_3_recommendPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80a5c56e73005e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976700935,
+        "stop" : 1601976708385,
+        "duration" : 7450
+      }
+    }, {
+      "uid" : "951a0c2d04a66379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437726997,
+        "stop" : 1601437734529,
+        "duration" : 7532
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "35e4a4292f06707b.json",
+  "parameterValues" : [ ]
+}

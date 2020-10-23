@@ -1,0 +1,187 @@
+{
+  "uid" : "9f9271fa4438e51c",
+  "name" : "test_collaboration6[2-５０日]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage#test_collaboration6",
+  "historyId" : "f7a4cab75cf2e9314ca766c8b27a4e95",
+  "time" : {
+    "start" : 1603357134245,
+    "stop" : 1603357136311,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603357072785,
+      "stop" : 1603357072785,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603357072785,
+      "stop" : 1603357073576,
+      "duration" : 791
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356995634,
+      "stop" : 1603357000856,
+      "duration" : 5222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "824c0874fb2ad500",
+      "name" : "stdout",
+      "source" : "824c0874fb2ad500.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603357138439,
+      "stop" : 1603357138439,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603357138412,
+      "stop" : 1603357138436,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603357230824,
+      "stop" : 1603357232953,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'５０日'"
+  }, {
+    "name" : "value",
+    "value" : "'2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b248258db1f3e4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976855504,
+        "stop" : 1601976857572,
+        "duration" : 2068
+      }
+    }, {
+      "uid" : "248065cc045a5230",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437902692,
+        "stop" : 1601437904770,
+        "duration" : 2078
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "9f9271fa4438e51c.json",
+  "parameterValues" : [ "'５０日'", "'2'" ]
+}

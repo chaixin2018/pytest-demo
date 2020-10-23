@@ -1,0 +1,187 @@
+{
+  "uid" : "68e6c9a5c4c8acec",
+  "name" : "test_recommend3[2-20~30人未満]",
+  "fullName" : "TestCases.test_3_recommendPageCase.TestRecommendPage#test_recommend3",
+  "historyId" : "4576613e192822ede343d30a652e625a",
+  "time" : {
+    "start" : 1603356956885,
+    "stop" : 1603356958956,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356907344,
+      "stop" : 1603356912678,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603356912679,
+      "stop" : 1603356934822,
+      "duration" : 22143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603356912678,
+      "stop" : 1603356912679,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "430c7cf81ecff3eb",
+      "name" : "stdout",
+      "source" : "430c7cf81ecff3eb.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603356993419,
+      "stop" : 1603356995626,
+      "duration" : 2207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603356971452,
+      "stop" : 1603356971473,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603356971476,
+      "stop" : 1603356971476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_3_recommendPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecommendPage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_3_recommendPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'20~30人未満'"
+  }, {
+    "name" : "value",
+    "value" : "'2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5286729c7c929ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976722993,
+        "stop" : 1601976725068,
+        "duration" : 2075
+      }
+    }, {
+      "uid" : "3717f2d3271a7de6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437749089,
+        "stop" : 1601437751168,
+        "duration" : 2079
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "68e6c9a5c4c8acec.json",
+  "parameterValues" : [ "'20~30人未満'", "'2'" ]
+}

@@ -1,0 +1,194 @@
+{
+  "uid" : "e45cc61b00500927",
+  "name" : "test_homepage[iamS-服务商中心]",
+  "fullName" : "TestCases.test_5_homePageCase.TestHomePage#test_homepage",
+  "historyId" : "5bed4d194598d89ecc5ec7994c9a5e0c",
+  "time" : {
+    "start" : 1602058564593,
+    "stop" : 1602058633496,
+    "duration" : 68903
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 路径跳转正确, 断言成功\nassert '服务商中心' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\n +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")> = <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>.driver",
+  "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x000001DC9249FAC0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000001DC92449A30>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x000001DC92449340>, <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>)\nname = 'iamS', expect = '服务商中心'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        my_page = login[1]\n        time.sleep(7)\n        my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n>       assert expect in my_page.driver.page_source, \"路径跳转正确, 断言成功\"\nE       AssertionError: 路径跳转正确, 断言成功\nE       assert '服务商中心' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\nE        +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")>.page_source\nE        +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")> = <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>.driver\n\nTestCases\\test_5_homePageCase.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1602058384274,
+      "stop" : 1602058389624,
+      "duration" : 5350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1602058389624,
+      "stop" : 1602058389624,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1602058389624,
+      "stop" : 1602058409298,
+      "duration" : 19674
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 路径跳转正确, 断言成功\nassert '服务商中心' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\n +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")> = <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>.driver",
+    "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x000001DC9249FAC0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000001DC92449A30>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x000001DC92449340>, <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>)\nname = 'iamS', expect = '服务商中心'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        my_page = login[1]\n        time.sleep(7)\n        my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n>       assert expect in my_page.driver.page_source, \"路径跳转正确, 断言成功\"\nE       AssertionError: 路径跳转正确, 断言成功\nE       assert '服务商中心' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\nE        +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")>.page_source\nE        +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ddac638681792efa7885d02c1a41b25e\")> = <Page.PageObject.MyPage.MyPage object at 0x000001DC924495B0>.driver\n\nTestCases\\test_5_homePageCase.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602058633957,
+        "stop" : 1602058634221,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c76981a4343d79dc",
+        "name" : "失败截图",
+        "source" : "c76981a4343d79dc.png",
+        "type" : "image/png",
+        "size" : 53227
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ae54926c4e2e93e",
+      "name" : "stdout",
+      "source" : "7ae54926c4e2e93e.txt",
+      "type" : "text/plain",
+      "size" : 425
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1602058634276,
+      "stop" : 1602058636423,
+      "duration" : 2147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1602058634274,
+      "stop" : 1602058634274,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1602058634226,
+      "stop" : 1602058634272,
+      "duration" : 46
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_5_homePageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "19940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_5_homePageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'服务商中心'"
+  }, {
+    "name" : "name",
+    "value" : "'iamS'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "e45cc61b00500927.json",
+  "parameterValues" : [ "'服务商中心'", "'iamS'" ]
+}

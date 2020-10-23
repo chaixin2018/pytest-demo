@@ -1,0 +1,187 @@
+{
+  "uid" : "80264e4525c2d96a",
+  "name" : "test_collaboration1[2-小売業]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage#test_collaboration1",
+  "historyId" : "b036e0413f918bcbbda5311e960f9308",
+  "time" : {
+    "start" : 1603357090604,
+    "stop" : 1603357092669,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603357072785,
+      "stop" : 1603357072785,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603357072785,
+      "stop" : 1603357073576,
+      "duration" : 791
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356995634,
+      "stop" : 1603357000856,
+      "duration" : 5222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6e70e964ea7c675",
+      "name" : "stdout",
+      "source" : "c6e70e964ea7c675.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603357138439,
+      "stop" : 1603357138439,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603357138412,
+      "stop" : 1603357138436,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603357230824,
+      "stop" : 1603357232953,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'小売業'"
+  }, {
+    "name" : "value",
+    "value" : "'2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56171dbfe05b33ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976811683,
+        "stop" : 1601976813779,
+        "duration" : 2096
+      }
+    }, {
+      "uid" : "aa0c00a9284edeed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437858862,
+        "stop" : 1601437860933,
+        "duration" : 2071
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "80264e4525c2d96a.json",
+  "parameterValues" : [ "'小売業'", "'2'" ]
+}

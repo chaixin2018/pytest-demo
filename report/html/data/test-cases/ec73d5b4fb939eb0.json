@@ -1,0 +1,187 @@
+{
+  "uid" : "ec73d5b4fb939eb0",
+  "name" : "test_recommend4[0-売上拡大・マーケティング]",
+  "fullName" : "TestCases.test_3_recommendPageCase.TestRecommendPage#test_recommend4",
+  "historyId" : "7b562424a9021369a1738369d27de17c",
+  "time" : {
+    "start" : 1603356965241,
+    "stop" : 1603356967300,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356907344,
+      "stop" : 1603356912678,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603356912679,
+      "stop" : 1603356934822,
+      "duration" : 22143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603356912678,
+      "stop" : 1603356912679,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d9bfb094b9a889",
+      "name" : "stdout",
+      "source" : "9d9bfb094b9a889.txt",
+      "type" : "text/plain",
+      "size" : 66
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603356993419,
+      "stop" : 1603356995626,
+      "duration" : 2207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603356971452,
+      "stop" : 1603356971473,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603356971476,
+      "stop" : 1603356971476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_3_recommendPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecommendPage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_3_recommendPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'売上拡大・マーケティング'"
+  }, {
+    "name" : "value",
+    "value" : "'0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4007c1cfa7180d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976731390,
+        "stop" : 1601976733447,
+        "duration" : 2057
+      }
+    }, {
+      "uid" : "1f55c131abd9b5c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437757439,
+        "stop" : 1601437759496,
+        "duration" : 2057
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "ec73d5b4fb939eb0.json",
+  "parameterValues" : [ "'売上拡大・マーケティング'", "'0'" ]
+}

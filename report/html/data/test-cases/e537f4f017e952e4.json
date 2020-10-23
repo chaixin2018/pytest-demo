@@ -1,0 +1,204 @@
+{
+  "uid" : "e537f4f017e952e4",
+  "name" : "test_collaboration1[4-製造業]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration1",
+  "historyId" : "7b91c33a214d61820cb30cc736445160",
+  "time" : {
+    "start" : 1603357189241,
+    "stop" : 1603357191315,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357167365,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357168153,
+      "duration" : 788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356995634,
+      "stop" : 1603357000856,
+      "duration" : 5222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "688f028d2b62eb0e",
+      "name" : "stdout",
+      "source" : "688f028d2b62eb0e.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603357230820,
+      "stop" : 1603357230820,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603357230797,
+      "stop" : 1603357230818,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603357230824,
+      "stop" : 1603357232953,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'製造業'"
+  }, {
+    "name" : "value",
+    "value" : "'4'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd5c57d329d3f738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602040872276,
+        "stop" : 1602040874352,
+        "duration" : 2076
+      }
+    }, {
+      "uid" : "e09988e4f25e85e4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: %d format: a number is required, not str",
+      "time" : {
+        "start" : 1602040604343,
+        "stop" : 1602040606386,
+        "duration" : 2043
+      }
+    }, {
+      "uid" : "4eb845fa22a5f1d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602040325961,
+        "stop" : 1602040328043,
+        "duration" : 2082
+      }
+    }, {
+      "uid" : "6f66fbf19a002193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602039866739,
+        "stop" : 1602039868820,
+        "duration" : 2081
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "e537f4f017e952e4.json",
+  "parameterValues" : [ "'製造業'", "'4'" ]
+}

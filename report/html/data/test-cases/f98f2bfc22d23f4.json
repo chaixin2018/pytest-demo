@@ -1,0 +1,195 @@
+{
+  "uid" : "f98f2bfc22d23f4",
+  "name" : "test_collaboration5[0-選択してください]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration5",
+  "historyId" : "346849e5b2f0e3639d9a8d87fb9aef72",
+  "time" : {
+    "start" : 1603357216287,
+    "stop" : 1603357218349,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357167365,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357168153,
+      "duration" : 788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356995634,
+      "stop" : 1603357000856,
+      "duration" : 5222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2b8a9438bf738ee",
+      "name" : "stdout",
+      "source" : "d2b8a9438bf738ee.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603357230820,
+      "stop" : 1603357230820,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603357230797,
+      "stop" : 1603357230818,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603357230824,
+      "stop" : 1603357232953,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'選択してください'"
+  }, {
+    "name" : "value",
+    "value" : "'0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5869c41f3e7d7012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602040899308,
+        "stop" : 1602040901374,
+        "duration" : 2066
+      }
+    }, {
+      "uid" : "e08cc5fd8b992131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602040355859,
+        "stop" : 1602040357914,
+        "duration" : 2055
+      }
+    }, {
+      "uid" : "3c28e8c11cf89511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602039896754,
+        "stop" : 1602039898809,
+        "duration" : 2055
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "f98f2bfc22d23f4.json",
+  "parameterValues" : [ "'選択してください'", "'0'" ]
+}

@@ -1,0 +1,206 @@
+{
+  "uid" : "5c88c403755b9b03",
+  "name" : "test_collaboration2[1-加工食品]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration2",
+  "historyId" : "40d0da5daccf2fa2d669fa1168351388",
+  "time" : {
+    "start" : 1603357193388,
+    "stop" : 1603357195461,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357167365,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1603357167365,
+      "stop" : 1603357168153,
+      "duration" : 788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356995634,
+      "stop" : 1603357000856,
+      "duration" : 5222
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49a529d17101121b",
+      "name" : "stdout",
+      "source" : "49a529d17101121b.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603357230820,
+      "stop" : 1603357230820,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1603357230797,
+      "stop" : 1603357230818,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603357230824,
+      "stop" : 1603357232953,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'加工食品'"
+  }, {
+    "name" : "value",
+    "value" : "'1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59c7fd93ec7ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602040876444,
+        "stop" : 1602040878508,
+        "duration" : 2064
+      }
+    }, {
+      "uid" : "20dbeb9490811d8c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[4]/div/form/div[2]/div/select\"}\n  (Session info: chrome=85.0.4183.121)",
+      "time" : {
+        "start" : 1602040609549,
+        "stop" : 1602040611561,
+        "duration" : 2012
+      }
+    }, {
+      "uid" : "804fce965c215ca8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言成功\nassert '小売業' == '加工食品'\n  - 加工食品\n  + 小売業",
+      "time" : {
+        "start" : 1602040330119,
+        "stop" : 1602040332209,
+        "duration" : 2090
+      }
+    }, {
+      "uid" : "8573dc31d092d7c3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言成功\nassert '小売業' == '加工食品'\n  - 加工食品\n  + 小売業",
+      "time" : {
+        "start" : 1602039870931,
+        "stop" : 1602039873044,
+        "duration" : 2113
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "5c88c403755b9b03.json",
+  "parameterValues" : [ "'加工食品'", "'1'" ]
+}

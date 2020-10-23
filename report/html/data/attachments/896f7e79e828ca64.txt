@@ -1,0 +1,17 @@
+info: string upload url "http://daido.sitetest1.com/"
+info:click "//*[@id="bs-example-navbar-collapse-1"]/ul[2]/li[3]/a"
+info:clearing value
+[Info:Starting find the element "//*[@id="username"]" by "xpath"!]
+info:clearing value
+[Info:Starting find the element "//*[@id="username"]" by "xpath"!]
+info:input "daido2"
+[Info:Starting find the element "//*[@id="username"]" by "xpath"!]
+info:clearing value
+[Info:Starting find the element "//*[@id="loginForm"]/div[2]/div/input" by "xpath"!]
+info:clearing value
+[Info:Starting find the element "//*[@id="loginForm"]/div[2]/div/input" by "xpath"!]
+info:input "daido002"
+[Info:Starting find the element "//*[@id="loginForm"]/div[2]/div/input" by "xpath"!]
+info:click "//*[@id="loginForm"]/div[7]/div/button"
+[Info:Starting find the element "/html/body/div[3]/div/nav/div/div[2]/ul[2]/li[3]/a" by "xpath"!]
+info:switch back to default iframe

@@ -1,0 +1,79 @@
+{
+  "uid" : "4d6463f0eac66c26",
+  "name" : "test_collaboration1[0-選択してください]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration1",
+  "historyId" : "0234e69aab6f636a8e9303ff72419d90",
+  "time" : {
+    "start" : 1602040594380,
+    "stop" : 1602040596448,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85665153ec130825",
+      "name" : "stdout",
+      "source" : "85665153ec130825.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "18456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'選択してください'"
+  }, {
+    "name" : "value",
+    "value" : "'0'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "4d6463f0eac66c26.json",
+  "parameterValues" : [ "'選択してください'", "'0'" ]
+}

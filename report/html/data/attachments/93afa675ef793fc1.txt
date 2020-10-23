@@ -1,0 +1,2 @@
+[Info:Starting find the element "//*[@id="catalog"]" by "xpath"!]
+------------close browser------------

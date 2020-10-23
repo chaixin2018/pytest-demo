@@ -1,0 +1,194 @@
+{
+  "uid" : "ec558b97e4be814d",
+  "name" : "test_homepage[iamC-雇主中心]",
+  "fullName" : "TestCases.test_5_homePageCase.TestHomePage#test_homepage",
+  "historyId" : "39c69ddc580915dd18f2bbe0387da32b",
+  "time" : {
+    "start" : 1602061661894,
+    "stop" : 1602061670698,
+    "duration" : 8804
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: get_element_text() missing 1 required positional argument: 'locator'",
+  "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x0000013C5F375A30>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000013C5F42A160>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x0000013C5F42A040>, <Page.PageObject.MyPage.MyPage object at 0x0000013C5F42A4C0>)\nname = 'iamC', expect = '雇主中心'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        my_page = login[1]\n        time.sleep(7)\n        my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.my_page_select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n>       actual = my_page.get_element_text(\"/html/body/div[4]/div/div[2]/div/div/h3\").text()\nE       TypeError: get_element_text() missing 1 required positional argument: 'locator'\n\nTestCases\\test_5_homePageCase.py:36: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1602061627888,
+      "stop" : 1602061661893,
+      "duration" : 34005
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1602061627888,
+      "stop" : 1602061627888,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1602061622586,
+      "stop" : 1602061627887,
+      "duration" : 5301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: get_element_text() missing 1 required positional argument: 'locator'",
+    "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x0000013C5F375A30>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000013C5F42A160>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x0000013C5F42A040>, <Page.PageObject.MyPage.MyPage object at 0x0000013C5F42A4C0>)\nname = 'iamC', expect = '雇主中心'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        my_page = login[1]\n        time.sleep(7)\n        my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.my_page_select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n>       actual = my_page.get_element_text(\"/html/body/div[4]/div/div[2]/div/div/h3\").text()\nE       TypeError: get_element_text() missing 1 required positional argument: 'locator'\n\nTestCases\\test_5_homePageCase.py:36: TypeError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602061671148,
+        "stop" : 1602061671435,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f260c8ac462d9a27",
+        "name" : "失败截图",
+        "source" : "f260c8ac462d9a27.png",
+        "type" : "image/png",
+        "size" : 93523
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cf290b31750831dd",
+      "name" : "stdout",
+      "source" : "cf290b31750831dd.txt",
+      "type" : "text/plain",
+      "size" : 1138
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1602061710906,
+      "stop" : 1602061710930,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1602061710932,
+      "stop" : 1602061710932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1602061710934,
+      "stop" : 1602061713098,
+      "duration" : 2164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_5_homePageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "22128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_5_homePageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'雇主中心'"
+  }, {
+    "name" : "name",
+    "value" : "'iamC'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "ec558b97e4be814d.json",
+  "parameterValues" : [ "'雇主中心'", "'iamC'" ]
+}

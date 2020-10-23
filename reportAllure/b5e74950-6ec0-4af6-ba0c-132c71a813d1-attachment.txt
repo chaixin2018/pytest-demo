@@ -1,0 +1,8 @@
+myPage的位置地址是 xpath //*[@id='bs-example-navbar-collapse-1']/ul[1]/li[6]/a
+info:click "//*[@id='bs-example-navbar-collapse-1']/ul[1]/li[6]/a"
+元素不可以点击
+the "{}" unclickable!
+info xpath /html/body/div[3]/div/nav/div/div[2]/ul[1]/li[4]/a
+info:click "/html/body/div[3]/div/nav/div/div[2]/ul[1]/li[4]/a"
+元素不可以点击
+the "{}" unclickable!

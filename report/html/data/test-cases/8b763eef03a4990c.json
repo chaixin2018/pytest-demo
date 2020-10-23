@@ -1,0 +1,134 @@
+{
+  "uid" : "8b763eef03a4990c",
+  "name" : "test_homepage[recommend-お困り事]",
+  "fullName" : "TestCases.test_2_homePageCase.TestHomePage#test_homepage",
+  "historyId" : "2c61fb8c76d03bb6106a781a0b74f1f9",
+  "time" : {
+    "start" : 1602048522100,
+    "stop" : 1602048531579,
+    "duration" : 9479
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'driver'",
+  "statusTrace" : "self = <TestCases.test_2_homePageCase.TestHomePage object at 0x00000175D6CCA880>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x00000175D6D95A60>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x00000175D6DBE130>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x00000175D6DBE100>)\nback_page = None, name = 'recommend', expect = 'お困り事'\n\n    @pytest.mark.parametrize('name,expect', homePage_data_menu)\n    def test_homepage(self, login, back_page,name, expect):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=name)\n        time.sleep(2)\n        #actual = home_page.get_path_text()\n        #_capture_screenshot()\n>       assert expect in home_page.driver.driver.page_source, \"路径跳转正确, 断言成功\"\nE       AttributeError: 'WebDriver' object has no attribute 'driver'\n\nTestCases\\test_2_homePageCase.py:35: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "back_page",
+    "time" : {
+      "start" : 1602048522099,
+      "stop" : 1602048522099,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'driver'",
+    "statusTrace" : "self = <TestCases.test_2_homePageCase.TestHomePage object at 0x00000175D6CCA880>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x00000175D6D95A60>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x00000175D6DBE130>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x00000175D6DBE100>)\nback_page = None, name = 'recommend', expect = 'お困り事'\n\n    @pytest.mark.parametrize('name,expect', homePage_data_menu)\n    def test_homepage(self, login, back_page,name, expect):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=name)\n        time.sleep(2)\n        #actual = home_page.get_path_text()\n        #_capture_screenshot()\n>       assert expect in home_page.driver.driver.page_source, \"路径跳转正确, 断言成功\"\nE       AttributeError: 'WebDriver' object has no attribute 'driver'\n\nTestCases\\test_2_homePageCase.py:35: AttributeError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602048532077,
+        "stop" : 1602048532369,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "758f153cfcdf668c",
+        "name" : "失败截图",
+        "source" : "758f153cfcdf668c.png",
+        "type" : "image/png",
+        "size" : 43307
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d2c7edd12751716",
+      "name" : "stdout",
+      "source" : "d2c7edd12751716.txt",
+      "type" : "text/plain",
+      "size" : 994
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "back_page::0",
+    "time" : {
+      "start" : 1602048532373,
+      "stop" : 1602048532579,
+      "duration" : 206
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2_homePageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "2648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_2_homePageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'お困り事'"
+  }, {
+    "name" : "name",
+    "value" : "'recommend'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "8b763eef03a4990c.json",
+  "parameterValues" : [ "'お困り事'", "'recommend'" ]
+}

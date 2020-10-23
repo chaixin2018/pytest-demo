@@ -1,0 +1,188 @@
+{
+  "uid" : "83814db3ebe1eb90",
+  "name" : "test_collaboration_2_flow",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestcollaborationPage_2_flow#test_collaboration_2_flow",
+  "historyId" : "256151aea73137bfc298dc27a418d6b9",
+  "time" : {
+    "start" : 1602040293771,
+    "stop" : 1602040303162,
+    "duration" : 9391
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: tuple index out of range",
+  "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestcollaborationPage_2_flow object at 0x000002A202D91610>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000002A202F2C910>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x000002A202F2C3A0>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x000002A202F2C490>)\n\n    def test_collaboration_2_flow(self, login):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=\"collaboration\")\n        time.sleep(2)\n    \n        collaboration_page_2 = login[4]\n>       collaboration_page_2.click(\"xpath\", collaboration_page_2.select_opt2[2])\nE       IndexError: tuple index out of range\n\nTestCases\\test_4_collaborationPageCase.py:149: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1602040273747,
+      "stop" : 1602040293770,
+      "duration" : 20023
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1602040273747,
+      "stop" : 1602040273747,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1602040268494,
+      "stop" : 1602040273747,
+      "duration" : 5253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: tuple index out of range",
+    "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestcollaborationPage_2_flow object at 0x000002A202D91610>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000002A202F2C910>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x000002A202F2C3A0>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x000002A202F2C490>)\n\n    def test_collaboration_2_flow(self, login):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=\"collaboration\")\n        time.sleep(2)\n    \n        collaboration_page_2 = login[4]\n>       collaboration_page_2.click(\"xpath\", collaboration_page_2.select_opt2[2])\nE       IndexError: tuple index out of range\n\nTestCases\\test_4_collaborationPageCase.py:149: IndexError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602040303436,
+        "stop" : 1602040303700,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff988c7e012b1858",
+        "name" : "失败截图",
+        "source" : "ff988c7e012b1858.png",
+        "type" : "image/png",
+        "size" : 31529
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cb5c96fa32c43581",
+      "name" : "stdout",
+      "source" : "cb5c96fa32c43581.txt",
+      "type" : "text/plain",
+      "size" : 998
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1602040303701,
+      "stop" : 1602040303751,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1602040303753,
+      "stop" : 1602040303753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1602040370495,
+      "stop" : 1602040372623,
+      "duration" : 2128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestcollaborationPage_2_flow"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "8544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "83814db3ebe1eb90.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,112 @@
+{
+  "uid" : "a56ce48bc997f120",
+  "name" : "test_fail_password_empty[1-1-对不起！密码长度不能小于6位！]",
+  "fullName" : "TestCases.test_1_loginCase.TestLogin#test_fail_password_empty",
+  "historyId" : "65e94724bf25141b9781f313e0e8e919",
+  "time" : {
+    "start" : 1601432652230,
+    "stop" : 1601432686419,
+    "duration" : 34189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1601432652229,
+      "stop" : 1601432652229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5b8981dadc772d0",
+      "name" : "stdout",
+      "source" : "f5b8981dadc772d0.txt",
+      "type" : "text/plain",
+      "size" : 975
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1601432686425,
+      "stop" : 1601432686434,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_loginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "13868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_1_loginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'对不起！密码长度不能小于6位！'"
+  }, {
+    "name" : "password",
+    "value" : "'1'"
+  }, {
+    "name" : "username",
+    "value" : "'1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test1" ]
+  },
+  "source" : "a56ce48bc997f120.json",
+  "parameterValues" : [ "'对不起！密码长度不能小于6位！'", "'1'", "'1'" ]
+}

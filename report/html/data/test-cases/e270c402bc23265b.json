@@ -1,0 +1,278 @@
+{
+  "uid" : "e270c402bc23265b",
+  "name" : "test_login[daido3-daido003-ログアウト]",
+  "fullName" : "TestCases.test_1_loginCase.TestLogin#test_login",
+  "historyId" : "9f8982480d28f82c64967cc71682993f",
+  "time" : {
+    "start" : 1603356775887,
+    "stop" : 1603356786922,
+    "duration" : 11035
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603356675817,
+      "stop" : 1603356675817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1603356775886,
+      "stop" : 1603356775886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356669752,
+      "stop" : 1603356675817,
+      "duration" : 6065
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "88b93fdd8835b19c",
+      "name" : "stdout",
+      "source" : "88b93fdd8835b19c.txt",
+      "type" : "text/plain",
+      "size" : 970
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603356786956,
+      "stop" : 1603356786956,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1603356786929,
+      "stop" : 1603356786953,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603356786958,
+      "stop" : 1603356789115,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_loginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_1_loginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'ログアウト'"
+  }, {
+    "name" : "password",
+    "value" : "'daido003'"
+  }, {
+    "name" : "username",
+    "value" : "'daido3'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12a24926a4aa645f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976561242,
+        "stop" : 1601976572337,
+        "duration" : 11095
+      }
+    }, {
+      "uid" : "a0cc4ea99300916a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437575719,
+        "stop" : 1601437586797,
+        "duration" : 11078
+      }
+    }, {
+      "uid" : "b3d754a5aba7587a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601433128991,
+        "stop" : 1601433140085,
+        "duration" : 11094
+      }
+    }, {
+      "uid" : "99f1a238cfe2b7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601432992510,
+        "stop" : 1601433008706,
+        "duration" : 16196
+      }
+    }, {
+      "uid" : "a732309882b6e310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601432269104,
+        "stop" : 1601432313414,
+        "duration" : 44310
+      }
+    }, {
+      "uid" : "60f1de8a1686859e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601431198638,
+        "stop" : 1601431209525,
+        "duration" : 10887
+      }
+    }, {
+      "uid" : "7d3fa73ff81dcbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430763949,
+        "stop" : 1601430772820,
+        "duration" : 8871
+      }
+    }, {
+      "uid" : "3dfe4bc9bffb7e31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430319703,
+        "stop" : 1601430325551,
+        "duration" : 5848
+      }
+    }, {
+      "uid" : "8ee9792b9cfb4b2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601287700235,
+        "stop" : 1601287706131,
+        "duration" : 5896
+      }
+    }, {
+      "uid" : "89e38692f7175410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601287297183,
+        "stop" : 1601287309944,
+        "duration" : 12761
+      }
+    }, {
+      "uid" : "231e948c3dc8997a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601280259247,
+        "stop" : 1601280265115,
+        "duration" : 5868
+      }
+    }, {
+      "uid" : "e3c31278aacf74b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601279607741,
+        "stop" : 1601279613541,
+        "duration" : 5800
+      }
+    }, {
+      "uid" : "6d021fb6d4d25cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601279199209,
+        "stop" : 1601279205161,
+        "duration" : 5952
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "e270c402bc23265b.json",
+  "parameterValues" : [ "'ログアウト'", "'daido003'", "'daido3'" ]
+}

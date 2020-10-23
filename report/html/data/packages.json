@@ -1,0 +1,1407 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_2_homePageCase",
+      "children" : [ {
+        "name" : "test_homepage",
+        "uid" : "b4af1914579e831a",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602047646044,
+          "stop" : 1602047655692,
+          "duration" : 9648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_homepage[recommend-]",
+        "uid" : "58db680c658da84f",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048205429,
+          "stop" : 1602048214884,
+          "duration" : 9455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'recommend'" ]
+      }, {
+        "name" : "test_homepage[collaboration-]",
+        "uid" : "3a2df02aaf964f60",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048215115,
+          "stop" : 1602048224495,
+          "duration" : 9380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'collaboration'" ]
+      }, {
+        "name" : "test_homepage[community-]",
+        "uid" : "f06510810b55a620",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048224734,
+          "stop" : 1602048251025,
+          "duration" : 26291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'community'" ]
+      }, {
+        "name" : "test_homepage[myPage-]",
+        "uid" : "2e5ed2480c4139a",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048251298,
+          "stop" : 1602048260741,
+          "duration" : 9443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'myPage'" ]
+      }, {
+        "name" : "test_homepage[top-]",
+        "uid" : "ca68809b0b239a11",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048260955,
+          "stop" : 1602048270392,
+          "duration" : 9437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'top'" ]
+      }, {
+        "name" : "test_homepage[pic_recommend-]",
+        "uid" : "54d93f2883a3acb0",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048270558,
+          "stop" : 1602048309572,
+          "duration" : 39014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'pic_recommend'" ]
+      }, {
+        "name" : "test_homepage[pic_collaboration_needs-]",
+        "uid" : "e706da5f77ed5b43",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048309831,
+          "stop" : 1602048319208,
+          "duration" : 9377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'pic_collaboration_needs'" ]
+      }, {
+        "name" : "test_homepage[pic_community-]",
+        "uid" : "315e4c352ad4516f",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048319458,
+          "stop" : 1602048328942,
+          "duration" : 9484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'pic_community'" ]
+      }, {
+        "name" : "test_homepage[pic_collaboration_help-]",
+        "uid" : "c45c5b0e41ad1657",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048329268,
+          "stop" : 1602048338949,
+          "duration" : 9681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'pic_collaboration_help'" ]
+      }, {
+        "name" : "test_homepage[top-bridge]",
+        "uid" : "e4dbe8c5837acc1f",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602048655476,
+          "stop" : 1602048664978,
+          "duration" : 9502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'bridge'", "'top'" ]
+      }, {
+        "name" : "test_homepage[recommend-お困り事]",
+        "uid" : "51fe0df0e4f4295b",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356823034,
+          "stop" : 1603356832530,
+          "duration" : 9496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'お困り事'", "'recommend'" ]
+      }, {
+        "name" : "test_homepage[collaboration-ビジネスパートナーに求める条件を選択してください]",
+        "uid" : "26ba2dad182ab273",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356832761,
+          "stop" : 1603356842156,
+          "duration" : 9395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ビジネスパートナーに求める条件を選択してください'", "'collaboration'" ]
+      }, {
+        "name" : "test_homepage[community-欢迎来中小企業エコシステム]",
+        "uid" : "ab85805007525a9a",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356842372,
+          "stop" : 1603356856613,
+          "duration" : 14241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'欢迎来中小企業エコシステム'", "'community'" ]
+      }, {
+        "name" : "test_homepage[myPage-雇主中心]",
+        "uid" : "24f2377e8a45cb4a",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356856839,
+          "stop" : 1603356866303,
+          "duration" : 9464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'雇主中心'", "'myPage'" ]
+      }, {
+        "name" : "test_homepage[pic_recommend-お困り事]",
+        "uid" : "4c7586d9dda5db86",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356866599,
+          "stop" : 1603356876018,
+          "duration" : 9419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'お困り事'", "'pic_recommend'" ]
+      }, {
+        "name" : "test_homepage[pic_collaboration_needs-販売代理店の開拓]",
+        "uid" : "9e0f52d0c1168427",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356876268,
+          "stop" : 1603356885653,
+          "duration" : 9385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'販売代理店の開拓'", "'pic_collaboration_needs'" ]
+      }, {
+        "name" : "test_homepage[pic_community-欢迎来中小企業エコシステム]",
+        "uid" : "e5f3f46e94fecfbe",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356885877,
+          "stop" : 1603356895302,
+          "duration" : 9425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'欢迎来中小企業エコシステム'", "'pic_community'" ]
+      }, {
+        "name" : "test_homepage[pic_collaboration_help-人気商材の探し]",
+        "uid" : "edca83ecbd18543f",
+        "parentUid" : "7745a790f247f8de4e83f1abd3f0818f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356895582,
+          "stop" : 1603356904951,
+          "duration" : 9369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'人気商材の探し'", "'pic_collaboration_help'" ]
+      } ],
+      "uid" : "7745a790f247f8de4e83f1abd3f0818f"
+    }, {
+      "name" : "test_5_homePageCase",
+      "children" : [ {
+        "name" : "test_homepage[message-站内消息]",
+        "uid" : "65a51a91fae5ac1f",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061032957,
+          "stop" : 1602061072078,
+          "duration" : 39121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内消息'", "'message'" ]
+      }, {
+        "name" : "test_homepage[info-站内通知]",
+        "uid" : "28889a774f7dd42d",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061072627,
+          "stop" : 1602061141152,
+          "duration" : 68525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内通知'", "'info'" ]
+      }, {
+        "name" : "test_homepage[iamS-服务商中心]",
+        "uid" : "9da965e4badc9d3b",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061141794,
+          "stop" : 1602061180585,
+          "duration" : 38791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'服务商中心'", "'iamS'" ]
+      }, {
+        "name" : "test_homepage[iamC-雇主中心]",
+        "uid" : "e79b52e60b47daa8",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602062236044,
+          "stop" : 1602062297484,
+          "duration" : 61440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'雇主中心'", "'iamC'" ]
+      }, {
+        "name" : "test_homepage[manage-我的基础信息]",
+        "uid" : "2286a596e49eb8b9",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602062298863,
+          "stop" : 1602062330767,
+          "duration" : 31904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'我的基础信息'", "'manage'" ]
+      }, {
+        "name" : "test_myPage0",
+        "uid" : "bdb151b9db04e5c4",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266246598,
+          "stop" : 1603266254000,
+          "duration" : 7402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_myPage1[iamC-雇主中心]",
+        "uid" : "ed5bae013d16eee",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266254095,
+          "stop" : 1603266255471,
+          "duration" : 1376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'雇主中心'", "'iamC'" ]
+      }, {
+        "name" : "test_myPage1[manage-我的基础信息]",
+        "uid" : "b18bc260850387ac",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266255552,
+          "stop" : 1603266256911,
+          "duration" : 1359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'我的基础信息'", "'manage'" ]
+      }, {
+        "name" : "test_myPage1[message-站内消息]",
+        "uid" : "934af03b117b380",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266256945,
+          "stop" : 1603266288798,
+          "duration" : 31853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内消息'", "'message'" ]
+      }, {
+        "name" : "test_myPage1[info-站内通知]",
+        "uid" : "36c0e3e43fc04b47",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266288860,
+          "stop" : 1603266350364,
+          "duration" : 61504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内通知'", "'info'" ]
+      }, {
+        "name" : "test_myPage1[iamS-服务商中心]",
+        "uid" : "f9950fc697a86aa2",
+        "parentUid" : "af09118817ce1b8cb85ea1cba1133725",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603266350441,
+          "stop" : 1603266351821,
+          "duration" : 1380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'服务商中心'", "'iamS'" ]
+      } ],
+      "uid" : "af09118817ce1b8cb85ea1cba1133725"
+    }, {
+      "name" : "test_1_loginCase",
+      "children" : [ {
+        "name" : "test_fail_user_empty[1-daido001-对不起！用户名有误,用户名长度不能小于3位！]",
+        "uid" : "1ce2a2740e29a87c",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356675846,
+          "stop" : 1603356711683,
+          "duration" : 35837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'对不起！用户名有误,用户名长度不能小于3位！'", "'daido001'", "'1'" ]
+      }, {
+        "name" : "test_fail_user_empty[-daido001-对不起！请输入用户名！]",
+        "uid" : "84cd3954f590b432",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356711740,
+          "stop" : 1603356715692,
+          "duration" : 3952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'对不起！请输入用户名！'", "'daido001'", "''" ]
+      }, {
+        "name" : "test_fail_password_empty[1-1-对不起！密码长度不能小于6位！]",
+        "uid" : "e197e4ff14d838ea",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356715711,
+          "stop" : 1603356749860,
+          "duration" : 34149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'对不起！密码长度不能小于6位！'", "'1'", "'1'" ]
+      }, {
+        "name" : "test_fail_password_empty[--对不起！请输入密码！]",
+        "uid" : "2480bebb0dc7d05e",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356749899,
+          "stop" : 1603356753707,
+          "duration" : 3808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'对不起！请输入密码！'", "''", "''" ]
+      }, {
+        "name" : "test_login[daido1-daido001-ログアウト]",
+        "uid" : "6da68043ded3ad1",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356753726,
+          "stop" : 1603356764773,
+          "duration" : 11047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ログアウト'", "'daido001'", "'daido1'" ]
+      }, {
+        "name" : "test_login[daido2-daido002-ログアウト]",
+        "uid" : "4ba3fec476ce381d",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356764809,
+          "stop" : 1603356775846,
+          "duration" : 11037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ログアウト'", "'daido002'", "'daido2'" ]
+      }, {
+        "name" : "test_login[daido3-daido003-ログアウト]",
+        "uid" : "e270c402bc23265b",
+        "parentUid" : "e4af506f12615f5664f28fbbe92561f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356775887,
+          "stop" : 1603356786922,
+          "duration" : 11035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ログアウト'", "'daido003'", "'daido3'" ]
+      } ],
+      "uid" : "e4af506f12615f5664f28fbbe92561f3"
+    }, {
+      "name" : "test_3_recommendPageCase",
+      "children" : [ {
+        "name" : "test_recommend0",
+        "uid" : "35e4a4292f06707b",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356934822,
+          "stop" : 1603356942292,
+          "duration" : 7470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_recommend1[0-製造業]",
+        "uid" : "865273b3acbaccc9",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356942297,
+          "stop" : 1603356944373,
+          "duration" : 2076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'製造業'", "'0'" ]
+      }, {
+        "name" : "test_recommend1[1-卸売業]",
+        "uid" : "e24f8cd660355695",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356944382,
+          "stop" : 1603356946455,
+          "duration" : 2073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'卸売業'", "'1'" ]
+      }, {
+        "name" : "test_recommend1[2-小売業]",
+        "uid" : "163aec2cb37f672c",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356946464,
+          "stop" : 1603356948541,
+          "duration" : 2077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'小売業'", "'2'" ]
+      }, {
+        "name" : "test_recommend1[3-IT]",
+        "uid" : "ba43c521fbdd2eee",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356948550,
+          "stop" : 1603356950619,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IT'", "'3'" ]
+      }, {
+        "name" : "test_recommend2[0-経営者]",
+        "uid" : "eb0048ae28c8cb3c",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356950655,
+          "stop" : 1603356952708,
+          "duration" : 2053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'経営者'", "'0'" ]
+      }, {
+        "name" : "test_recommend3[0-5~10人未満]",
+        "uid" : "d4731d5eec5e0eb9",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356952731,
+          "stop" : 1603356954797,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5~10人未満'", "'0'" ]
+      }, {
+        "name" : "test_recommend3[1-10~20人未満]",
+        "uid" : "243d36cb3f853ea5",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356954806,
+          "stop" : 1603356956875,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'10~20人未満'", "'1'" ]
+      }, {
+        "name" : "test_recommend3[2-20~30人未満]",
+        "uid" : "68e6c9a5c4c8acec",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356956885,
+          "stop" : 1603356958956,
+          "duration" : 2071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'20~30人未満'", "'2'" ]
+      }, {
+        "name" : "test_recommend3[3-30~40人未満]",
+        "uid" : "6b1d28735e6236d",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356958965,
+          "stop" : 1603356961041,
+          "duration" : 2076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'30~40人未満'", "'3'" ]
+      }, {
+        "name" : "test_recommend3[4-40~50人未満]",
+        "uid" : "3c99e829e9f13fe6",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356961050,
+          "stop" : 1603356963145,
+          "duration" : 2095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'40~50人未満'", "'4'" ]
+      }, {
+        "name" : "test_recommend3[5-50人以上]",
+        "uid" : "d1c83d4ce4cdb43a",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356963153,
+          "stop" : 1603356965233,
+          "duration" : 2080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'50人以上'", "'5'" ]
+      }, {
+        "name" : "test_recommend4[0-売上拡大・マーケティング]",
+        "uid" : "ec73d5b4fb939eb0",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356965241,
+          "stop" : 1603356967300,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'売上拡大・マーケティング'", "'0'" ]
+      }, {
+        "name" : "test_recommend4[1-人材活用]",
+        "uid" : "450c5ee8f487545b",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356967308,
+          "stop" : 1603356969373,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'人材活用'", "'1'" ]
+      }, {
+        "name" : "test_recommend4[2-セキョリティ・リスク管理]",
+        "uid" : "ff2ca6158703eec1",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356969380,
+          "stop" : 1603356971448,
+          "duration" : 2068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'セキョリティ・リスク管理'", "'2'" ]
+      }, {
+        "name" : "test_recommend_flow",
+        "uid" : "b14d0b4260ef23cd",
+        "parentUid" : "c3b0c60a543266a69517130a4f9181de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603356972309,
+          "stop" : 1603356993392,
+          "duration" : 21083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3b0c60a543266a69517130a4f9181de"
+    }, {
+      "name" : "test_4_collaborationPageCase",
+      "children" : [ {
+        "name" : "test_collaboration_flow",
+        "uid" : "eef38fc69bc05b6f",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357043480,
+          "stop" : 1603357072752,
+          "duration" : 29272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_collaboration0",
+        "uid" : "3dec3d2adb32a8ad",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357073577,
+          "stop" : 1603357086415,
+          "duration" : 12838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_collaboration1[0-選択してください]",
+        "uid" : "81093611ba0bfd5e",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357086441,
+          "stop" : 1603357088499,
+          "duration" : 2058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration1[1-卸売業]",
+        "uid" : "1cdd0a20b374ba7a",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357088521,
+          "stop" : 1603357090595,
+          "duration" : 2074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'卸売業'", "'1'" ]
+      }, {
+        "name" : "test_collaboration1[2-小売業]",
+        "uid" : "80264e4525c2d96a",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357090604,
+          "stop" : 1603357092669,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'小売業'", "'2'" ]
+      }, {
+        "name" : "test_collaboration1[3-IT]",
+        "uid" : "8c446c17c8234f9c",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357092677,
+          "stop" : 1603357094747,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IT'", "'3'" ]
+      }, {
+        "name" : "test_collaboration1[4-製造業]",
+        "uid" : "8357c05cf8677e3d",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357094756,
+          "stop" : 1603357096833,
+          "duration" : 2077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'製造業'", "'4'" ]
+      }, {
+        "name" : "test_collaboration2[0-選択してください]",
+        "uid" : "a2887d7f64805f57",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357096841,
+          "stop" : 1603357098895,
+          "duration" : 2054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration2[1-小売業]",
+        "uid" : "f58c3a9c5676ef1a",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357098917,
+          "stop" : 1603357100984,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'小売業'", "'1'" ]
+      }, {
+        "name" : "test_collaboration2[2-卸売業]",
+        "uid" : "5e50feef68be2298",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357100992,
+          "stop" : 1603357103061,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'卸売業'", "'2'" ]
+      }, {
+        "name" : "test_collaboration2[3-IT]",
+        "uid" : "5685218b42a4c7ff",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357103076,
+          "stop" : 1603357105142,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IT'", "'3'" ]
+      }, {
+        "name" : "test_collaboration2[4-製造業]",
+        "uid" : "c53d4499287be06f",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357105153,
+          "stop" : 1603357107223,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'製造業'", "'4'" ]
+      }, {
+        "name" : "test_collaboration3[0-選択してください]",
+        "uid" : "bf1d51e39f74c2b",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357107232,
+          "stop" : 1603357109294,
+          "duration" : 2062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration3[1-５～１０年]",
+        "uid" : "11af6b0c3f621c98",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357109320,
+          "stop" : 1603357111386,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'５～１０年'", "'1'" ]
+      }, {
+        "name" : "test_collaboration3[2-１０～２０年]",
+        "uid" : "5f9f64ad28074a17",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357111396,
+          "stop" : 1603357113464,
+          "duration" : 2068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'１０～２０年'", "'2'" ]
+      }, {
+        "name" : "test_collaboration3[3-２０年以上]",
+        "uid" : "4ab4f0627b094928",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357113473,
+          "stop" : 1603357115547,
+          "duration" : 2074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'２０年以上'", "'3'" ]
+      }, {
+        "name" : "test_collaboration4[0-選択してください]",
+        "uid" : "67eede46d72fcfb1",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357115555,
+          "stop" : 1603357117621,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration4[1-一次商圈]",
+        "uid" : "5d089f320793b304",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357117630,
+          "stop" : 1603357119689,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'一次商圈'", "'1'" ]
+      }, {
+        "name" : "test_collaboration4[2-二次商圈]",
+        "uid" : "78a243231696440d",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357119698,
+          "stop" : 1603357121773,
+          "duration" : 2075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'二次商圈'", "'2'" ]
+      }, {
+        "name" : "test_collaboration4[3-商圈外]",
+        "uid" : "32653abbfcdd6c9c",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357121781,
+          "stop" : 1603357123856,
+          "duration" : 2075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'商圈外'", "'3'" ]
+      }, {
+        "name" : "test_collaboration5[0-選択してください]",
+        "uid" : "2998d2b49c630b8f",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357123869,
+          "stop" : 1603357125934,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration5[1-要]",
+        "uid" : "5678f7013d9b1649",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357125943,
+          "stop" : 1603357128004,
+          "duration" : 2061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'要'", "'1'" ]
+      }, {
+        "name" : "test_collaboration5[2-不要]",
+        "uid" : "e3d6bf5aac736132",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357128012,
+          "stop" : 1603357130087,
+          "duration" : 2075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'不要'", "'2'" ]
+      }, {
+        "name" : "test_collaboration6[0-選択してください]",
+        "uid" : "3272101863a0e282",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357130095,
+          "stop" : 1603357132160,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration6[1-３０日]",
+        "uid" : "baeb4717e3ea7451",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357132168,
+          "stop" : 1603357134236,
+          "duration" : 2068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'３０日'", "'1'" ]
+      }, {
+        "name" : "test_collaboration6[2-５０日]",
+        "uid" : "9f9271fa4438e51c",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357134245,
+          "stop" : 1603357136311,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'５０日'", "'2'" ]
+      }, {
+        "name" : "test_collaboration6[3-７０日]",
+        "uid" : "96709e34234e3927",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357136342,
+          "stop" : 1603357138409,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'７０日'", "'3'" ]
+      }, {
+        "name" : "test_collaboration_2_flow",
+        "uid" : "5e41341024994cc5",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357139266,
+          "stop" : 1603357167329,
+          "duration" : 28063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_collaboration0",
+        "uid" : "e529bd0653c081c9",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357168153,
+          "stop" : 1603357180914,
+          "duration" : 12761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_collaboration1[0-選択してください]",
+        "uid" : "d0dfb2930e3a0bbf",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357180920,
+          "stop" : 1603357182979,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration1[1-卸売業]",
+        "uid" : "54b126da6ff64698",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357182987,
+          "stop" : 1603357185054,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'卸売業'", "'1'" ]
+      }, {
+        "name" : "test_collaboration1[2-小売業]",
+        "uid" : "d73ccd4c05ec4407",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357185076,
+          "stop" : 1603357187145,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'小売業'", "'2'" ]
+      }, {
+        "name" : "test_collaboration1[3-IT]",
+        "uid" : "2e16ea43dadae0de",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357187153,
+          "stop" : 1603357189223,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IT'", "'3'" ]
+      }, {
+        "name" : "test_collaboration1[4-製造業]",
+        "uid" : "e537f4f017e952e4",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357189241,
+          "stop" : 1603357191315,
+          "duration" : 2074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'製造業'", "'4'" ]
+      }, {
+        "name" : "test_collaboration2[0-選択してください]",
+        "uid" : "6354ae12e7527f97",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357191324,
+          "stop" : 1603357193380,
+          "duration" : 2056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration2[1-加工食品]",
+        "uid" : "5c88c403755b9b03",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357193388,
+          "stop" : 1603357195461,
+          "duration" : 2073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'加工食品'", "'1'" ]
+      }, {
+        "name" : "test_collaboration2[2-ITサービス]",
+        "uid" : "dfe52fbbd17ce801",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357195475,
+          "stop" : 1603357197546,
+          "duration" : 2071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ITサービス'", "'2'" ]
+      }, {
+        "name" : "test_collaboration2[3-製造業サービス]",
+        "uid" : "b51a71f08ef5c7ed",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357197554,
+          "stop" : 1603357199618,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'製造業サービス'", "'3'" ]
+      }, {
+        "name" : "test_collaboration3[0-選択してください]",
+        "uid" : "90148dccaa13d7eb",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357199626,
+          "stop" : 1603357201699,
+          "duration" : 2073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration3[1-５～１０年]",
+        "uid" : "76293ff8d96e6753",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357201708,
+          "stop" : 1603357203780,
+          "duration" : 2072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'５～１０年'", "'1'" ]
+      }, {
+        "name" : "test_collaboration3[2-１０～２０年]",
+        "uid" : "ec4337bb21db6b",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357203789,
+          "stop" : 1603357205857,
+          "duration" : 2068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'１０～２０年'", "'2'" ]
+      }, {
+        "name" : "test_collaboration3[3-２０年以上]",
+        "uid" : "5bf98923a902db01",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357205874,
+          "stop" : 1603357207971,
+          "duration" : 2097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'２０年以上'", "'3'" ]
+      }, {
+        "name" : "test_collaboration4[0-選択してください]",
+        "uid" : "8b96bf4de862b16f",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357207979,
+          "stop" : 1603357210041,
+          "duration" : 2062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration4[1-一次商圈（駐車場併設）]",
+        "uid" : "d6bd05b324b74e6a",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357210049,
+          "stop" : 1603357212126,
+          "duration" : 2077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'一次商圈（駐車場併設）'", "'1'" ]
+      }, {
+        "name" : "test_collaboration4[2-二次商圈（駐車場併設）]",
+        "uid" : "c8b064feb0b4adb4",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357212135,
+          "stop" : 1603357214203,
+          "duration" : 2068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'二次商圈（駐車場併設）'", "'2'" ]
+      }, {
+        "name" : "test_collaboration4[3-商圈外]",
+        "uid" : "ca650b3ff094fb11",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357214213,
+          "stop" : 1603357216279,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'商圈外'", "'3'" ]
+      }, {
+        "name" : "test_collaboration5[0-選択してください]",
+        "uid" : "f98f2bfc22d23f4",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357216287,
+          "stop" : 1603357218349,
+          "duration" : 2062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration5[1-要]",
+        "uid" : "ba5ef2936c711131",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357218357,
+          "stop" : 1603357220426,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'要'", "'1'" ]
+      }, {
+        "name" : "test_collaboration5[2-不要]",
+        "uid" : "85777a8c8320ccc5",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357220440,
+          "stop" : 1603357222504,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'不要'", "'2'" ]
+      }, {
+        "name" : "test_collaboration6[0-選択してください]",
+        "uid" : "fd14a6829f68ab4a",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357222512,
+          "stop" : 1603357224577,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'選択してください'", "'0'" ]
+      }, {
+        "name" : "test_collaboration6[1-３０日]",
+        "uid" : "d9338e31e2a02165",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357224586,
+          "stop" : 1603357226650,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'３０日'", "'1'" ]
+      }, {
+        "name" : "test_collaboration6[2-５０日]",
+        "uid" : "837e3f565012ef86",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357226658,
+          "stop" : 1603357228717,
+          "duration" : 2059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'５０日'", "'2'" ]
+      }, {
+        "name" : "test_collaboration6[3-７０日]",
+        "uid" : "475411c0b45fc01",
+        "parentUid" : "795ad772d329fbaebbeabf08c6f89d2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603357228726,
+          "stop" : 1603357230793,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'７０日'", "'3'" ]
+      } ],
+      "uid" : "795ad772d329fbaebbeabf08c6f89d2c"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ]
+}

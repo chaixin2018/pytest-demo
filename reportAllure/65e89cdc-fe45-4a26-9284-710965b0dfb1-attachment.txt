@@ -1,0 +1,2 @@
+collaboration的位置地址是 xpath //html/body/div[4]/div[4]/div[2]/div/a/img
+info:click "//html/body/div[4]/div[4]/div[2]/div/a/img"

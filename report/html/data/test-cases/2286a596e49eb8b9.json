@@ -1,0 +1,312 @@
+{
+  "uid" : "2286a596e49eb8b9",
+  "name" : "test_homepage[manage-我的基础信息]",
+  "fullName" : "TestCases.test_5_homePageCase.TestHomePage#test_homepage",
+  "historyId" : "e39978ac2b1d21ff59e8d271f4ea16bb",
+  "time" : {
+    "start" : 1602062298863,
+    "stop" : 1602062330767,
+    "duration" : 31904
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '我的基础信息' == None",
+  "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x0000023EE5F220A0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000023EE5ECA6D0>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x0000023EE5ECA130>, <Page.PageObject.MyPage.MyPage object at 0x0000023EE5ECA0D0>)\nname = 'manage', expect = '我的基础信息'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        # my_page = login[1]\n        # time.sleep(7)\n        # my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.my_page_select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n        actual = my_page.get_element_text(\"xpath\",\"/html/body/div[4]/div/div[2]/div/div/h3\")\n        print(actual,\"actual\")\n        #assert expect in my_page.driver.page_source, \"路径跳转正确, 断言成功\"\n>       assert expect == actual\nE       AssertionError: assert '我的基础信息' == None\n\nTestCases\\test_5_homePageCase.py:44: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1602062216299,
+      "stop" : 1602062216299,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1602062216299,
+      "stop" : 1602062236043,
+      "duration" : 19744
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1602062211011,
+      "stop" : 1602062216299,
+      "duration" : 5288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '我的基础信息' == None",
+    "statusTrace" : "self = <TestCases.test_5_homePageCase.TestHomePage object at 0x0000023EE5F220A0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000023EE5ECA6D0>, <Page.PageObject.HomePage.HomePage object at 0x00...onPage.CollaborationPage_2 object at 0x0000023EE5ECA130>, <Page.PageObject.MyPage.MyPage object at 0x0000023EE5ECA0D0>)\nname = 'manage', expect = '我的基础信息'\n\n    @pytest.mark.parametrize('name,expect', MyPage_data_menu)\n    def test_homepage(self, login,name, expect):\n        # my_page = login[1]\n        # time.sleep(7)\n        # my_page.select_menu(menu=\"myPage\")\n        my_page = login[5]\n        my_page.my_page_select_menu(menu=name)\n        time.sleep(1)\n        #actual = my_page.get_path_text()\n        #_capture_screenshot()\n        actual = my_page.get_element_text(\"xpath\",\"/html/body/div[4]/div/div[2]/div/div/h3\")\n        print(actual,\"actual\")\n        #assert expect in my_page.driver.page_source, \"路径跳转正确, 断言成功\"\n>       assert expect == actual\nE       AssertionError: assert '我的基础信息' == None\n\nTestCases\\test_5_homePageCase.py:44: AssertionError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602062331406,
+        "stop" : 1602062331970,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "262cefc38f1c93cb",
+        "name" : "失败截图",
+        "source" : "262cefc38f1c93cb.png",
+        "type" : "image/png",
+        "size" : 1020921
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2c40c639a537d83f",
+      "name" : "stdout",
+      "source" : "2c40c639a537d83f.txt",
+      "type" : "text/plain",
+      "size" : 428
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1602062331999,
+      "stop" : 1602062331999,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1602062331974,
+      "stop" : 1602062331997,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1602062332002,
+      "stop" : 1602062334165,
+      "duration" : 2163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_5_homePageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "8804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_5_homePageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'我的基础信息'"
+  }, {
+    "name" : "name",
+    "value" : "'manage'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c72cbc10aeb60bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062071302,
+        "stop" : 1602062110219,
+        "duration" : 38917
+      }
+    }, {
+      "uid" : "8fe5c21f4bc44c51",
+      "status" : "broken",
+      "statusDetails" : "TypeError: get_element_text() missing 1 required positional argument: 'locator'",
+      "time" : {
+        "start" : 1602061671463,
+        "stop" : 1602061710344,
+        "duration" : 38881
+      }
+    }, {
+      "uid" : "51287ca2992117c2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'get_element_text'",
+      "time" : {
+        "start" : 1602061538059,
+        "stop" : 1602061576441,
+        "duration" : 38382
+      }
+    }, {
+      "uid" : "ef5a56ebbbec1ee2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1602061420006,
+        "stop" : 1602061458847,
+        "duration" : 38841
+      }
+    }, {
+      "uid" : "e359b08846dfc419",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'MyPage' object has no attribute 'drive'",
+      "time" : {
+        "start" : 1602060993961,
+        "stop" : 1602061032404,
+        "duration" : 38443
+      }
+    }, {
+      "uid" : "3546e6aa9e92f7a6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'MyPage' object has no attribute 'find_element_by_xpath'",
+      "time" : {
+        "start" : 1602060593483,
+        "stop" : 1602060632641,
+        "duration" : 39158
+      }
+    }, {
+      "uid" : "ec1c4094ed722e50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602060323680,
+        "stop" : 1602060362773,
+        "duration" : 39093
+      }
+    }, {
+      "uid" : "46d36a4e32272987",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 路径跳转正确, 断言成功\nassert '我的基础信息' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\n +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"\">\\n<m...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4d72eb42ec75b7cf1099d60da43f50a3\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4d72eb42ec75b7cf1099d60da43f50a3\")> = <Page.PageObject.MyPage.MyPage object at 0x0000018D0B4FB5B0>.driver",
+      "time" : {
+        "start" : 1602059874033,
+        "stop" : 1602059942865,
+        "duration" : 68832
+      }
+    }, {
+      "uid" : "66f464594109a969",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602058418393,
+        "stop" : 1602058457284,
+        "duration" : 38891
+      }
+    }, {
+      "uid" : "632af4fe3f099a7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602058284150,
+        "stop" : 1602058286931,
+        "duration" : 2781
+      }
+    }, {
+      "uid" : "76a4e5dcc45c8521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602058111164,
+        "stop" : 1602058121002,
+        "duration" : 9838
+      }
+    }, {
+      "uid" : "3448347081ae1389",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 路径跳转正确, 断言成功\nassert '我的基础信息' in '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>威客 - 中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"威...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>'\n +  where '<html lang=\"zh-CN\"><!-- Head --><head>\\n<title>威客 - 中小企業エコシステム - 中小企業エコシステム</title>\\n<meta name=\"keywords\" content=\"威...s/socket.io/socket.io.js\"></script> -->\\n<script src=\"/assets/js/footer.js\"></script>\\n\\n</body><!--  /Body --></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a72dd0451b8538b2a7f967ca2cc103ec\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a72dd0451b8538b2a7f967ca2cc103ec\")> = <Page.PageObject.MyPage.MyPage object at 0x000001F37FDEA400>.driver",
+      "time" : {
+        "start" : 1602057943855,
+        "stop" : 1602057953331,
+        "duration" : 9476
+      }
+    }, {
+      "uid" : "17f6c6a1191c1e36",
+      "status" : "broken",
+      "statusDetails" : "IndexError: tuple index out of range",
+      "time" : {
+        "start" : 1602057773161,
+        "stop" : 1602057773161,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "2286a596e49eb8b9.json",
+  "parameterValues" : [ "'我的基础信息'", "'manage'" ]
+}

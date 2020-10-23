@@ -1,0 +1,194 @@
+{
+  "uid" : "804fce965c215ca8",
+  "name" : "test_collaboration2[1-加工食品]",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration2",
+  "historyId" : "40d0da5daccf2fa2d669fa1168351388",
+  "time" : {
+    "start" : 1602040330119,
+    "stop" : 1602040332209,
+    "duration" : 2090
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 断言成功\nassert '小売業' == '加工食品'\n  - 加工食品\n  + 小売業",
+  "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestCollaborationPage_2 object at 0x000002A202FB9280>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000002A202F2C5B0>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x000002A202F3D1F0>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x000002A202F3D250>)\nvalue = '1', expect = '加工食品'\n\n    @pytest.mark.parametrize('value,expect', collaborationPage_data_select2)\n    def test_collaboration2(self, login, value, expect):\n        collaboration_page_1 = login[3]\n        # collaboration_page_1.click(collaboration_page_1.select1[0],collaboration_page_1.select1[1])\n        collaboration_page_1.select_option(collaboration_page_1.select2[1], value, \"index\")\n        actual_all = collaboration_page_1.get_element_text(collaboration_page_1.select2[0],\n                                                           collaboration_page_1.select2[1]).split('\\n')\n        actual = actual_all[int(value)].strip()\n>       assert actual == expect, \"断言成功\"\nE       AssertionError: 断言成功\nE       assert '小売業' == '加工食品'\nE         - 加工食品\nE         + 小売業\n\nTestCases\\test_4_collaborationPageCase.py:211: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1602040268494,
+      "stop" : 1602040273747,
+      "duration" : 5253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1602040303767,
+      "stop" : 1602040303767,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1602040303767,
+      "stop" : 1602040304701,
+      "duration" : 934
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 断言成功\nassert '小売業' == '加工食品'\n  - 加工食品\n  + 小売業",
+    "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestCollaborationPage_2 object at 0x000002A202FB9280>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x000002A202F2C5B0>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x000002A202F3D1F0>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x000002A202F3D250>)\nvalue = '1', expect = '加工食品'\n\n    @pytest.mark.parametrize('value,expect', collaborationPage_data_select2)\n    def test_collaboration2(self, login, value, expect):\n        collaboration_page_1 = login[3]\n        # collaboration_page_1.click(collaboration_page_1.select1[0],collaboration_page_1.select1[1])\n        collaboration_page_1.select_option(collaboration_page_1.select2[1], value, \"index\")\n        actual_all = collaboration_page_1.get_element_text(collaboration_page_1.select2[0],\n                                                           collaboration_page_1.select2[1]).split('\\n')\n        actual = actual_all[int(value)].strip()\n>       assert actual == expect, \"断言成功\"\nE       AssertionError: 断言成功\nE       assert '小売業' == '加工食品'\nE         - 加工食品\nE         + 小売業\n\nTestCases\\test_4_collaborationPageCase.py:211: AssertionError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602040332512,
+        "stop" : 1602040332776,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f32bf6e05482889b",
+        "name" : "失败截图",
+        "source" : "f32bf6e05482889b.png",
+        "type" : "image/png",
+        "size" : 51758
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "edb1f07761b3a390",
+      "name" : "stdout",
+      "source" : "edb1f07761b3a390.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1602040370495,
+      "stop" : 1602040372623,
+      "duration" : 2128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1602040370491,
+      "stop" : 1602040370491,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1602040370456,
+      "stop" : 1602040370488,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "8544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'加工食品'"
+  }, {
+    "name" : "value",
+    "value" : "'1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "804fce965c215ca8.json",
+  "parameterValues" : [ "'加工食品'", "'1'" ]
+}

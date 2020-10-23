@@ -1,0 +1,3 @@
+------------open browser------------
+info: string upload url "http://daido.sitetest1.com/"
+------------close browser------------

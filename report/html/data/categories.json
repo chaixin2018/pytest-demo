@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'MyPage' object has no attribute 'drive'",
+      "children" : [ {
+        "name" : "test_homepage[message-站内消息]",
+        "uid" : "65a51a91fae5ac1f",
+        "parentUid" : "c9c9e421ee5f7b6e5791ec67f36f8f0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061032957,
+          "stop" : 1602061072078,
+          "duration" : 39121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内消息'", "'message'" ]
+      }, {
+        "name" : "test_homepage[info-站内通知]",
+        "uid" : "28889a774f7dd42d",
+        "parentUid" : "c9c9e421ee5f7b6e5791ec67f36f8f0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061072627,
+          "stop" : 1602061141152,
+          "duration" : 68525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'站内通知'", "'info'" ]
+      }, {
+        "name" : "test_homepage[iamS-服务商中心]",
+        "uid" : "9da965e4badc9d3b",
+        "parentUid" : "c9c9e421ee5f7b6e5791ec67f36f8f0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061141794,
+          "stop" : 1602061180585,
+          "duration" : 38791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'服务商中心'", "'iamS'" ]
+      } ],
+      "uid" : "c9c9e421ee5f7b6e5791ec67f36f8f0f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '雇主中心' == None",
+      "children" : [ {
+        "name" : "test_homepage[iamC-雇主中心]",
+        "uid" : "e79b52e60b47daa8",
+        "parentUid" : "9f7695978667a9415be791348afbd698",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602062236044,
+          "stop" : 1602062297484,
+          "duration" : 61440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'雇主中心'", "'iamC'" ]
+      } ],
+      "uid" : "9f7695978667a9415be791348afbd698"
+    }, {
+      "name" : "AssertionError: assert '我的基础信息' == None",
+      "children" : [ {
+        "name" : "test_homepage[manage-我的基础信息]",
+        "uid" : "2286a596e49eb8b9",
+        "parentUid" : "9efefa11c480b11139b52f6ae70ddb47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602062298863,
+          "stop" : 1602062330767,
+          "duration" : 31904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'我的基础信息'", "'manage'" ]
+      } ],
+      "uid" : "9efefa11c480b11139b52f6ae70ddb47"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

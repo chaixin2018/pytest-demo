@@ -1,0 +1,2 @@
+message的位置地址是 xpath /html/body/div[3]/div/nav/div/div[2]/ul[1]/li[3]/a
+info:click "/html/body/div[3]/div/nav/div/div[2]/ul[1]/li[3]/a"

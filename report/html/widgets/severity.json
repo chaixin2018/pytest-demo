@@ -1,0 +1,1061 @@
+[ {
+  "uid" : "5f9f64ad28074a17",
+  "name" : "test_collaboration3[2-１０～２０年]",
+  "time" : {
+    "start" : 1603357111396,
+    "stop" : 1603357113464,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e16ea43dadae0de",
+  "name" : "test_collaboration1[3-IT]",
+  "time" : {
+    "start" : 1603357187153,
+    "stop" : 1603357189223,
+    "duration" : 2070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd14a6829f68ab4a",
+  "name" : "test_collaboration6[0-選択してください]",
+  "time" : {
+    "start" : 1603357222512,
+    "stop" : 1603357224577,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28889a774f7dd42d",
+  "name" : "test_homepage[info-站内通知]",
+  "time" : {
+    "start" : 1602061072627,
+    "stop" : 1602061141152,
+    "duration" : 68525
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eb0048ae28c8cb3c",
+  "name" : "test_recommend2[0-経営者]",
+  "time" : {
+    "start" : 1603356950655,
+    "stop" : 1603356952708,
+    "duration" : 2053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca68809b0b239a11",
+  "name" : "test_homepage[top-]",
+  "time" : {
+    "start" : 1602048260955,
+    "stop" : 1602048270392,
+    "duration" : 9437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f9271fa4438e51c",
+  "name" : "test_collaboration6[2-５０日]",
+  "time" : {
+    "start" : 1603357134245,
+    "stop" : 1603357136311,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8357c05cf8677e3d",
+  "name" : "test_collaboration1[4-製造業]",
+  "time" : {
+    "start" : 1603357094756,
+    "stop" : 1603357096833,
+    "duration" : 2077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e197e4ff14d838ea",
+  "name" : "test_fail_password_empty[1-1-对不起！密码长度不能小于6位！]",
+  "time" : {
+    "start" : 1603356715711,
+    "stop" : 1603356749860,
+    "duration" : 34149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b1d28735e6236d",
+  "name" : "test_recommend3[3-30~40人未満]",
+  "time" : {
+    "start" : 1603356958965,
+    "stop" : 1603356961041,
+    "duration" : 2076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff2ca6158703eec1",
+  "name" : "test_recommend4[2-セキョリティ・リスク管理]",
+  "time" : {
+    "start" : 1603356969380,
+    "stop" : 1603356971448,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d93f2883a3acb0",
+  "name" : "test_homepage[pic_recommend-]",
+  "time" : {
+    "start" : 1602048270558,
+    "stop" : 1602048309572,
+    "duration" : 39014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e270c402bc23265b",
+  "name" : "test_login[daido3-daido003-ログアウト]",
+  "time" : {
+    "start" : 1603356775887,
+    "stop" : 1603356786922,
+    "duration" : 11035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51a71f08ef5c7ed",
+  "name" : "test_collaboration2[3-製造業サービス]",
+  "time" : {
+    "start" : 1603357197554,
+    "stop" : 1603357199618,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e529bd0653c081c9",
+  "name" : "test_collaboration0",
+  "time" : {
+    "start" : 1603357168153,
+    "stop" : 1603357180914,
+    "duration" : 12761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5685218b42a4c7ff",
+  "name" : "test_collaboration2[3-IT]",
+  "time" : {
+    "start" : 1603357103076,
+    "stop" : 1603357105142,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96709e34234e3927",
+  "name" : "test_collaboration6[3-７０日]",
+  "time" : {
+    "start" : 1603357136342,
+    "stop" : 1603357138409,
+    "duration" : 2067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4dbe8c5837acc1f",
+  "name" : "test_homepage[top-bridge]",
+  "time" : {
+    "start" : 1602048655476,
+    "stop" : 1602048664978,
+    "duration" : 9502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80264e4525c2d96a",
+  "name" : "test_collaboration1[2-小売業]",
+  "time" : {
+    "start" : 1603357090604,
+    "stop" : 1603357092669,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eef38fc69bc05b6f",
+  "name" : "test_collaboration_flow",
+  "time" : {
+    "start" : 1603357043480,
+    "stop" : 1603357072752,
+    "duration" : 29272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ab4f0627b094928",
+  "name" : "test_collaboration3[3-２０年以上]",
+  "time" : {
+    "start" : 1603357113473,
+    "stop" : 1603357115547,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba43c521fbdd2eee",
+  "name" : "test_recommend1[3-IT]",
+  "time" : {
+    "start" : 1603356948550,
+    "stop" : 1603356950619,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2887d7f64805f57",
+  "name" : "test_collaboration2[0-選択してください]",
+  "time" : {
+    "start" : 1603357096841,
+    "stop" : 1603357098895,
+    "duration" : 2054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68e6c9a5c4c8acec",
+  "name" : "test_recommend3[2-20~30人未満]",
+  "time" : {
+    "start" : 1603356956885,
+    "stop" : 1603356958956,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "315e4c352ad4516f",
+  "name" : "test_homepage[pic_community-]",
+  "time" : {
+    "start" : 1602048319458,
+    "stop" : 1602048328942,
+    "duration" : 9484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7586d9dda5db86",
+  "name" : "test_homepage[pic_recommend-お困り事]",
+  "time" : {
+    "start" : 1603356866599,
+    "stop" : 1603356876018,
+    "duration" : 9419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c45c5b0e41ad1657",
+  "name" : "test_homepage[pic_collaboration_help-]",
+  "time" : {
+    "start" : 1602048329268,
+    "stop" : 1602048338949,
+    "duration" : 9681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9338e31e2a02165",
+  "name" : "test_collaboration6[1-３０日]",
+  "time" : {
+    "start" : 1603357224586,
+    "stop" : 1603357226650,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36c0e3e43fc04b47",
+  "name" : "test_myPage1[info-站内通知]",
+  "time" : {
+    "start" : 1603266288860,
+    "stop" : 1603266350364,
+    "duration" : 61504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bf98923a902db01",
+  "name" : "test_collaboration3[3-２０年以上]",
+  "time" : {
+    "start" : 1603357205874,
+    "stop" : 1603357207971,
+    "duration" : 2097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14d0b4260ef23cd",
+  "name" : "test_recommend_flow",
+  "time" : {
+    "start" : 1603356972309,
+    "stop" : 1603356993392,
+    "duration" : 21083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e537f4f017e952e4",
+  "name" : "test_collaboration1[4-製造業]",
+  "time" : {
+    "start" : 1603357189241,
+    "stop" : 1603357191315,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2998d2b49c630b8f",
+  "name" : "test_collaboration5[0-選択してください]",
+  "time" : {
+    "start" : 1603357123869,
+    "stop" : 1603357125934,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26ba2dad182ab273",
+  "name" : "test_homepage[collaboration-ビジネスパートナーに求める条件を選択してください]",
+  "time" : {
+    "start" : 1603356832761,
+    "stop" : 1603356842156,
+    "duration" : 9395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edca83ecbd18543f",
+  "name" : "test_homepage[pic_collaboration_help-人気商材の探し]",
+  "time" : {
+    "start" : 1603356895582,
+    "stop" : 1603356904951,
+    "duration" : 9369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9950fc697a86aa2",
+  "name" : "test_myPage1[iamS-服务商中心]",
+  "time" : {
+    "start" : 1603266350441,
+    "stop" : 1603266351821,
+    "duration" : 1380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6da68043ded3ad1",
+  "name" : "test_login[daido1-daido001-ログアウト]",
+  "time" : {
+    "start" : 1603356753726,
+    "stop" : 1603356764773,
+    "duration" : 11047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da965e4badc9d3b",
+  "name" : "test_homepage[iamS-服务商中心]",
+  "time" : {
+    "start" : 1602061141794,
+    "stop" : 1602061180585,
+    "duration" : 38791
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "11af6b0c3f621c98",
+  "name" : "test_collaboration3[1-５～１０年]",
+  "time" : {
+    "start" : 1603357109320,
+    "stop" : 1603357111386,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a2df02aaf964f60",
+  "name" : "test_homepage[collaboration-]",
+  "time" : {
+    "start" : 1602048215115,
+    "stop" : 1602048224495,
+    "duration" : 9380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1d51e39f74c2b",
+  "name" : "test_collaboration3[0-選択してください]",
+  "time" : {
+    "start" : 1603357107232,
+    "stop" : 1603357109294,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2480bebb0dc7d05e",
+  "name" : "test_fail_password_empty[--对不起！请输入密码！]",
+  "time" : {
+    "start" : 1603356749899,
+    "stop" : 1603356753707,
+    "duration" : 3808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dec3d2adb32a8ad",
+  "name" : "test_collaboration0",
+  "time" : {
+    "start" : 1603357073577,
+    "stop" : 1603357086415,
+    "duration" : 12838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e5ed2480c4139a",
+  "name" : "test_homepage[myPage-]",
+  "time" : {
+    "start" : 1602048251298,
+    "stop" : 1602048260741,
+    "duration" : 9443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3d6bf5aac736132",
+  "name" : "test_collaboration5[2-不要]",
+  "time" : {
+    "start" : 1603357128012,
+    "stop" : 1603357130087,
+    "duration" : 2075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca650b3ff094fb11",
+  "name" : "test_collaboration4[3-商圈外]",
+  "time" : {
+    "start" : 1603357214213,
+    "stop" : 1603357216279,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab85805007525a9a",
+  "name" : "test_homepage[community-欢迎来中小企業エコシステム]",
+  "time" : {
+    "start" : 1603356842372,
+    "stop" : 1603356856613,
+    "duration" : 14241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfe52fbbd17ce801",
+  "name" : "test_collaboration2[2-ITサービス]",
+  "time" : {
+    "start" : 1603357195475,
+    "stop" : 1603357197546,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec73d5b4fb939eb0",
+  "name" : "test_recommend4[0-売上拡大・マーケティング]",
+  "time" : {
+    "start" : 1603356965241,
+    "stop" : 1603356967300,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4731d5eec5e0eb9",
+  "name" : "test_recommend3[0-5~10人未満]",
+  "time" : {
+    "start" : 1603356952731,
+    "stop" : 1603356954797,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cdd0a20b374ba7a",
+  "name" : "test_collaboration1[1-卸売業]",
+  "time" : {
+    "start" : 1603357088521,
+    "stop" : 1603357090595,
+    "duration" : 2074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba5ef2936c711131",
+  "name" : "test_collaboration5[1-要]",
+  "time" : {
+    "start" : 1603357218357,
+    "stop" : 1603357220426,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baeb4717e3ea7451",
+  "name" : "test_collaboration6[1-３０日]",
+  "time" : {
+    "start" : 1603357132168,
+    "stop" : 1603357134236,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce2a2740e29a87c",
+  "name" : "test_fail_user_empty[1-daido001-对不起！用户名有误,用户名长度不能小于3位！]",
+  "time" : {
+    "start" : 1603356675846,
+    "stop" : 1603356711683,
+    "duration" : 35837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f06510810b55a620",
+  "name" : "test_homepage[community-]",
+  "time" : {
+    "start" : 1602048224734,
+    "stop" : 1602048251025,
+    "duration" : 26291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1c83d4ce4cdb43a",
+  "name" : "test_recommend3[5-50人以上]",
+  "time" : {
+    "start" : 1603356963153,
+    "stop" : 1603356965233,
+    "duration" : 2080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6bd05b324b74e6a",
+  "name" : "test_collaboration4[1-一次商圈（駐車場併設）]",
+  "time" : {
+    "start" : 1603357210049,
+    "stop" : 1603357212126,
+    "duration" : 2077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6354ae12e7527f97",
+  "name" : "test_collaboration2[0-選択してください]",
+  "time" : {
+    "start" : 1603357191324,
+    "stop" : 1603357193380,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32653abbfcdd6c9c",
+  "name" : "test_collaboration4[3-商圈外]",
+  "time" : {
+    "start" : 1603357121781,
+    "stop" : 1603357123856,
+    "duration" : 2075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "163aec2cb37f672c",
+  "name" : "test_recommend1[2-小売業]",
+  "time" : {
+    "start" : 1603356946464,
+    "stop" : 1603356948541,
+    "duration" : 2077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d089f320793b304",
+  "name" : "test_collaboration4[1-一次商圈]",
+  "time" : {
+    "start" : 1603357117630,
+    "stop" : 1603357119689,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90148dccaa13d7eb",
+  "name" : "test_collaboration3[0-選択してください]",
+  "time" : {
+    "start" : 1603357199626,
+    "stop" : 1603357201699,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5678f7013d9b1649",
+  "name" : "test_collaboration5[1-要]",
+  "time" : {
+    "start" : 1603357125943,
+    "stop" : 1603357128004,
+    "duration" : 2061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51fe0df0e4f4295b",
+  "name" : "test_homepage[recommend-お困り事]",
+  "time" : {
+    "start" : 1603356823034,
+    "stop" : 1603356832530,
+    "duration" : 9496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed5bae013d16eee",
+  "name" : "test_myPage1[iamC-雇主中心]",
+  "time" : {
+    "start" : 1603266254095,
+    "stop" : 1603266255471,
+    "duration" : 1376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81093611ba0bfd5e",
+  "name" : "test_collaboration1[0-選択してください]",
+  "time" : {
+    "start" : 1603357086441,
+    "stop" : 1603357088499,
+    "duration" : 2058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e706da5f77ed5b43",
+  "name" : "test_homepage[pic_collaboration_needs-]",
+  "time" : {
+    "start" : 1602048309831,
+    "stop" : 1602048319208,
+    "duration" : 9377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3272101863a0e282",
+  "name" : "test_collaboration6[0-選択してください]",
+  "time" : {
+    "start" : 1603357130095,
+    "stop" : 1603357132160,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8b064feb0b4adb4",
+  "name" : "test_collaboration4[2-二次商圈（駐車場併設）]",
+  "time" : {
+    "start" : 1603357212135,
+    "stop" : 1603357214203,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "475411c0b45fc01",
+  "name" : "test_collaboration6[3-７０日]",
+  "time" : {
+    "start" : 1603357228726,
+    "stop" : 1603357230793,
+    "duration" : 2067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "865273b3acbaccc9",
+  "name" : "test_recommend1[0-製造業]",
+  "time" : {
+    "start" : 1603356942297,
+    "stop" : 1603356944373,
+    "duration" : 2076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65a51a91fae5ac1f",
+  "name" : "test_homepage[message-站内消息]",
+  "time" : {
+    "start" : 1602061032957,
+    "stop" : 1602061072078,
+    "duration" : 39121
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c53d4499287be06f",
+  "name" : "test_collaboration2[4-製造業]",
+  "time" : {
+    "start" : 1603357105153,
+    "stop" : 1603357107223,
+    "duration" : 2070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ba3fec476ce381d",
+  "name" : "test_login[daido2-daido002-ログアウト]",
+  "time" : {
+    "start" : 1603356764809,
+    "stop" : 1603356775846,
+    "duration" : 11037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a243231696440d",
+  "name" : "test_collaboration4[2-二次商圈]",
+  "time" : {
+    "start" : 1603357119698,
+    "stop" : 1603357121773,
+    "duration" : 2075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e24f8cd660355695",
+  "name" : "test_recommend1[1-卸売業]",
+  "time" : {
+    "start" : 1603356944382,
+    "stop" : 1603356946455,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76293ff8d96e6753",
+  "name" : "test_collaboration3[1-５～１０年]",
+  "time" : {
+    "start" : 1603357201708,
+    "stop" : 1603357203780,
+    "duration" : 2072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2286a596e49eb8b9",
+  "name" : "test_homepage[manage-我的基础信息]",
+  "time" : {
+    "start" : 1602062298863,
+    "stop" : 1602062330767,
+    "duration" : 31904
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e41341024994cc5",
+  "name" : "test_collaboration_2_flow",
+  "time" : {
+    "start" : 1603357139266,
+    "stop" : 1603357167329,
+    "duration" : 28063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c88c403755b9b03",
+  "name" : "test_collaboration2[1-加工食品]",
+  "time" : {
+    "start" : 1603357193388,
+    "stop" : 1603357195461,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b96bf4de862b16f",
+  "name" : "test_collaboration4[0-選択してください]",
+  "time" : {
+    "start" : 1603357207979,
+    "stop" : 1603357210041,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54b126da6ff64698",
+  "name" : "test_collaboration1[1-卸売業]",
+  "time" : {
+    "start" : 1603357182987,
+    "stop" : 1603357185054,
+    "duration" : 2067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5f3f46e94fecfbe",
+  "name" : "test_homepage[pic_community-欢迎来中小企業エコシステム]",
+  "time" : {
+    "start" : 1603356885877,
+    "stop" : 1603356895302,
+    "duration" : 9425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "243d36cb3f853ea5",
+  "name" : "test_recommend3[1-10~20人未満]",
+  "time" : {
+    "start" : 1603356954806,
+    "stop" : 1603356956875,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "450c5ee8f487545b",
+  "name" : "test_recommend4[1-人材活用]",
+  "time" : {
+    "start" : 1603356967308,
+    "stop" : 1603356969373,
+    "duration" : 2065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85777a8c8320ccc5",
+  "name" : "test_collaboration5[2-不要]",
+  "time" : {
+    "start" : 1603357220440,
+    "stop" : 1603357222504,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "837e3f565012ef86",
+  "name" : "test_collaboration6[2-５０日]",
+  "time" : {
+    "start" : 1603357226658,
+    "stop" : 1603357228717,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "934af03b117b380",
+  "name" : "test_myPage1[message-站内消息]",
+  "time" : {
+    "start" : 1603266256945,
+    "stop" : 1603266288798,
+    "duration" : 31853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84cd3954f590b432",
+  "name" : "test_fail_user_empty[-daido001-对不起！请输入用户名！]",
+  "time" : {
+    "start" : 1603356711740,
+    "stop" : 1603356715692,
+    "duration" : 3952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c446c17c8234f9c",
+  "name" : "test_collaboration1[3-IT]",
+  "time" : {
+    "start" : 1603357092677,
+    "stop" : 1603357094747,
+    "duration" : 2070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67eede46d72fcfb1",
+  "name" : "test_collaboration4[0-選択してください]",
+  "time" : {
+    "start" : 1603357115555,
+    "stop" : 1603357117621,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4337bb21db6b",
+  "name" : "test_collaboration3[2-１０～２０年]",
+  "time" : {
+    "start" : 1603357203789,
+    "stop" : 1603357205857,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f98f2bfc22d23f4",
+  "name" : "test_collaboration5[0-選択してください]",
+  "time" : {
+    "start" : 1603357216287,
+    "stop" : 1603357218349,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d73ccd4c05ec4407",
+  "name" : "test_collaboration1[2-小売業]",
+  "time" : {
+    "start" : 1603357185076,
+    "stop" : 1603357187145,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35e4a4292f06707b",
+  "name" : "test_recommend0",
+  "time" : {
+    "start" : 1603356934822,
+    "stop" : 1603356942292,
+    "duration" : 7470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e0f52d0c1168427",
+  "name" : "test_homepage[pic_collaboration_needs-販売代理店の開拓]",
+  "time" : {
+    "start" : 1603356876268,
+    "stop" : 1603356885653,
+    "duration" : 9385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24f2377e8a45cb4a",
+  "name" : "test_homepage[myPage-雇主中心]",
+  "time" : {
+    "start" : 1603356856839,
+    "stop" : 1603356866303,
+    "duration" : 9464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58db680c658da84f",
+  "name" : "test_homepage[recommend-]",
+  "time" : {
+    "start" : 1602048205429,
+    "stop" : 1602048214884,
+    "duration" : 9455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c99e829e9f13fe6",
+  "name" : "test_recommend3[4-40~50人未満]",
+  "time" : {
+    "start" : 1603356961050,
+    "stop" : 1603356963145,
+    "duration" : 2095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4af1914579e831a",
+  "name" : "test_homepage",
+  "time" : {
+    "start" : 1602047646044,
+    "stop" : 1602047655692,
+    "duration" : 9648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e50feef68be2298",
+  "name" : "test_collaboration2[2-卸売業]",
+  "time" : {
+    "start" : 1603357100992,
+    "stop" : 1603357103061,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0dfb2930e3a0bbf",
+  "name" : "test_collaboration1[0-選択してください]",
+  "time" : {
+    "start" : 1603357180920,
+    "stop" : 1603357182979,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdb151b9db04e5c4",
+  "name" : "test_myPage0",
+  "time" : {
+    "start" : 1603266246598,
+    "stop" : 1603266254000,
+    "duration" : 7402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f58c3a9c5676ef1a",
+  "name" : "test_collaboration2[1-小売業]",
+  "time" : {
+    "start" : 1603357098917,
+    "stop" : 1603357100984,
+    "duration" : 2067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b18bc260850387ac",
+  "name" : "test_myPage1[manage-我的基础信息]",
+  "time" : {
+    "start" : 1603266255552,
+    "stop" : 1603266256911,
+    "duration" : 1359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e79b52e60b47daa8",
+  "name" : "test_homepage[iamC-雇主中心]",
+  "time" : {
+    "start" : 1602062236044,
+    "stop" : 1602062297484,
+    "duration" : 61440
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

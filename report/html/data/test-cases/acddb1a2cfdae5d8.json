@@ -1,0 +1,98 @@
+{
+  "uid" : "acddb1a2cfdae5d8",
+  "name" : "test_collaboration0",
+  "fullName" : "TestCases.test_4_collaborationPageCase.TestCollaborationPage_2#test_collaboration0",
+  "historyId" : "73fc3774af4f769c63913f3af15104e3",
+  "time" : {
+    "start" : 1602040586476,
+    "stop" : 1602040593821,
+    "duration" : 7345
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: tuple index out of range",
+  "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestCollaborationPage_2 object at 0x0000020514DFF3D0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000020514D7BCD0>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x0000020514DB3E20>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x0000020514DB3EB0>)\n\n    def test_collaboration0(self, login):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=\"collaboration\")\n        collaboration_page_1 = login[4]\n>       collaboration_page_1.click(\"xpath\", collaboration_page_1.select_opt2[2])\nE       IndexError: tuple index out of range\n\nTestCases\\test_4_collaborationPageCase.py:183: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: tuple index out of range",
+    "statusTrace" : "self = <TestCases.test_4_collaborationPageCase.TestCollaborationPage_2 object at 0x0000020514DFF3D0>\nlogin = (<Page.PageObject.LoginPage.LoginPage object at 0x0000020514D7BCD0>, <Page.PageObject.HomePage.HomePage object at 0x00..._1 object at 0x0000020514DB3E20>, <Page.PageObject.CollaborationPage.CollaborationPage_2 object at 0x0000020514DB3EB0>)\n\n    def test_collaboration0(self, login):\n        home_page = login[1]\n        time.sleep(7)\n        home_page.select_menu(menu=\"collaboration\")\n        collaboration_page_1 = login[4]\n>       collaboration_page_1.click(\"xpath\", collaboration_page_1.select_opt2[2])\nE       IndexError: tuple index out of range\n\nTestCases\\test_4_collaborationPageCase.py:183: IndexError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1602040594124,
+        "stop" : 1602040594375,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7b218eb8a496f6f",
+        "name" : "失败截图",
+        "source" : "f7b218eb8a496f6f.png",
+        "type" : "image/png",
+        "size" : 31533
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "91185d547e8183a",
+      "name" : "stdout",
+      "source" : "91185d547e8183a.txt",
+      "type" : "text/plain",
+      "size" : 961
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_collaborationPageCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollaborationPage_2"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "18456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_4_collaborationPageCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Test2" ]
+  },
+  "source" : "acddb1a2cfdae5d8.json",
+  "parameterValues" : [ ]
+}

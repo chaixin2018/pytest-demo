@@ -1,0 +1,294 @@
+{
+  "uid" : "2480bebb0dc7d05e",
+  "name" : "test_fail_password_empty[--对不起！请输入密码！]",
+  "fullName" : "TestCases.test_1_loginCase.TestLogin#test_fail_password_empty",
+  "historyId" : "19c20d6591c707086577ec0f634f58fd",
+  "time" : {
+    "start" : 1603356749899,
+    "stop" : 1603356753707,
+    "duration" : 3808
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ini_pages",
+    "time" : {
+      "start" : 1603356675817,
+      "stop" : 1603356675817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1603356749898,
+      "stop" : 1603356749898,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1603356669752,
+      "stop" : 1603356675817,
+      "duration" : 6065
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c88ee4fbb4d0cff3",
+      "name" : "stdout",
+      "source" : "c88ee4fbb4d0cff3.txt",
+      "type" : "text/plain",
+      "size" : 929
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ini_pages::0",
+    "time" : {
+      "start" : 1603356786956,
+      "stop" : 1603356786956,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1603356753713,
+      "stop" : 1603356753719,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1603356786958,
+      "stop" : 1603356789115,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1_loginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HPTSJ003"
+  }, {
+    "name" : "thread",
+    "value" : "10960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_1_loginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'对不起！请输入密码！'"
+  }, {
+    "name" : "password",
+    "value" : "''"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "831a404d4fde13d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601976535209,
+        "stop" : 1601976539008,
+        "duration" : 3799
+      }
+    }, {
+      "uid" : "e8367ec1d9a6868d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601437549648,
+        "stop" : 1601437553427,
+        "duration" : 3779
+      }
+    }, {
+      "uid" : "6b892839ab2ec883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601433102975,
+        "stop" : 1601433106811,
+        "duration" : 3836
+      }
+    }, {
+      "uid" : "cc0a16489aa19b56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601432686443,
+        "stop" : 1601432690567,
+        "duration" : 4124
+      }
+    }, {
+      "uid" : "9ba767cbe62647e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601432425284,
+        "stop" : 1601432429022,
+        "duration" : 3738
+      }
+    }, {
+      "uid" : "6a3bcff43f2c12b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601432212989,
+        "stop" : 1601432221796,
+        "duration" : 8807
+      }
+    }, {
+      "uid" : "89db37f7bccf3483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430956737,
+        "stop" : 1601430965588,
+        "duration" : 8851
+      }
+    }, {
+      "uid" : "b5015df608df555e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430526996,
+        "stop" : 1601430533789,
+        "duration" : 6793
+      }
+    }, {
+      "uid" : "dfc1f3c176b06bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601430092424,
+        "stop" : 1601430096255,
+        "duration" : 3831
+      }
+    }, {
+      "uid" : "94d0906c6006784c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601287472589,
+        "stop" : 1601287476467,
+        "duration" : 3878
+      }
+    }, {
+      "uid" : "25a84b6d0ae7d602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601287266350,
+        "stop" : 1601287270186,
+        "duration" : 3836
+      }
+    }, {
+      "uid" : "60d3b8127bc60ff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601280031587,
+        "stop" : 1601280035388,
+        "duration" : 3801
+      }
+    }, {
+      "uid" : "52294a25b8d0ab8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601279849814,
+        "stop" : 1601279853738,
+        "duration" : 3924
+      }
+    }, {
+      "uid" : "f3f5bd9c8acb3bcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601279588929,
+        "stop" : 1601279592888,
+        "duration" : 3959
+      }
+    }, {
+      "uid" : "cfc20830141f4037",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601279178145,
+        "stop" : 1601279182048,
+        "duration" : 3903
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "2480bebb0dc7d05e.json",
+  "parameterValues" : [ "'对不起！请输入密码！'", "''", "''" ]
+}

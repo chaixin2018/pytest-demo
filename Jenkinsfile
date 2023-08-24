@@ -1,6 +1,12 @@
 pipeline {
     agent any
-    
+    stage('Install Dependencies') {
+            steps {
+                script {
+                        sh 'pip install selenium'
+                }
+            }
+        }
     stages {
         stage('Build') {
             steps {

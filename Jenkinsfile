@@ -5,7 +5,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                         echo 'pip install selenium begin'
-                        sh 'pip install selenium'
+                        sh 'pip3 install selenium'
                         echo 'pip install selenium finish'
                 }
             }

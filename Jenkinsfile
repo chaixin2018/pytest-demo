@@ -1,13 +1,16 @@
 pipeline {
     agent any
-    stage('Install Dependencies') {
+    
+    stages {
+        stage('Install Dependencies') {
             steps {
                 script {
+                        echo 'pip install selenium begin'
                         sh 'pip install selenium'
+                        echo 'pip install selenium finish'
                 }
             }
         }
-    stages {
         stage('Build') {
             steps {
                 echo 'Hello, Jenkins!'

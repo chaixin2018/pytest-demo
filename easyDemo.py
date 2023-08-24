@@ -8,7 +8,7 @@ from time import sleep
 #driver.get("https://www.example.com")
 sleep(20)
 # 获取页面标题并打印
-print("页面标题:", driver.title)
-
+#print("页面标题:", driver.title)
+print("11111")
 # 关闭浏览器
 #driver.quit()

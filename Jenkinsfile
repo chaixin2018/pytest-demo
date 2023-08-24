@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello, Jenkins!'
+                sh 'python3 easyDemo.py'
             }
         }
     }

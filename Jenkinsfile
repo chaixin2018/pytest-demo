@@ -16,7 +16,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo '111 Hello, Jenkins!'
-                 report_info = formattedDateTime
                 print("report_info"+report_info)
                 sh 'python3 easyDemo.py'
             }

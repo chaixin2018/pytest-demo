@@ -1,3 +1,13 @@
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+
+// 获取当前日期和时间
+LocalDateTime now = LocalDateTime.now()
+print(now)
+// 格式化日期和时间
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
+String formattedDateTime = now.format(formatter)
+print(formattedDateTime)
 pipeline {
     agent any
     

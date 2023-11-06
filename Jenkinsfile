@@ -1,4 +1,4 @@
-def currentTimeMillis = env.BUILD_TIMESTAMP
+def currentTimeMillis = env.currentTimeMillis
 
 pipeline {
     agent any

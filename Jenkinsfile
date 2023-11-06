@@ -18,7 +18,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo '111 Hello, Jenkins!'
-                print("report_info"+createVersion)
+                print("report_info"+createVersion())
                 sh 'python3 easyDemo.py'
             }
         }

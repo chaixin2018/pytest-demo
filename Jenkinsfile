@@ -1,5 +1,4 @@
 def currentTimeMillis = env.BUILD_TIMESTAMP
-def formattedDateTime = new Date(currentTimeMillis).format("yyyy-MM-dd_HH:mm:ss")
 
 pipeline {
     agent any
@@ -16,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo '111 Hello, Jenkins!'
-                print("report_info"+report_info)
+                print("report_info"+currentTimeMillis)
                 sh 'python3 easyDemo.py'
             }
         }
